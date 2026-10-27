@@ -1,0 +1,19 @@
+[run]
+branch = False
+omit =
+    # Heavy ML inference modules — tested offline with model evaluation,
+    # not in the scope of the system test plan.
+    app/nlp/bert_clause_classifier.py
+    app/nlp/ner_extractor.py
+    app/nlp/ner_qa_extractor.py
+    app/nlp/ner_questions.py
+    # Thin wrapper around the BERT pipeline; covered transitively when
+    # the pipeline is exercised in integration with a real model.
+    app/services/parser.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    if TYPE_CHECKING:

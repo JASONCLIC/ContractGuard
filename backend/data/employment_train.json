@@ -1,0 +1,2175 @@
+{
+  "version": "2.0",
+  "data": [
+    {
+      "title": "Employment Contract - unilateral_exemption - Positive 1",
+      "paragraphs": [
+        {
+          "context": "The Company shall not be liable for any loss, damage, injury or illness suffered by the Employee. The Employee assumes all risks associated with the performance of duties. (variant 1)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_pos_1",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [
+                {
+                  "text": "shall not be liable for any loss, damage, injury or illness",
+                  "answer_start": 12
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Positive 2",
+      "paragraphs": [
+        {
+          "context": "The Company shall not be liable for any loss, damage, injury or illness suffered by the Employee. The Employee assumes all risks associated with the performance of duties. (variant 2)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_pos_2",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [
+                {
+                  "text": "shall not be liable for any loss, damage, injury or illness",
+                  "answer_start": 12
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Positive 3",
+      "paragraphs": [
+        {
+          "context": "The Company shall not be liable for any loss, damage, injury or illness suffered by the Employee. The Employee assumes all risks associated with the performance of duties. (variant 3)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_pos_3",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [
+                {
+                  "text": "shall not be liable for any loss, damage, injury or illness",
+                  "answer_start": 12
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Positive 4",
+      "paragraphs": [
+        {
+          "context": "The Company shall not be liable for any loss, damage, injury or illness suffered by the Employee. The Employee assumes all risks associated with the performance of duties. (variant 4)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_pos_4",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [
+                {
+                  "text": "shall not be liable for any loss, damage, injury or illness",
+                  "answer_start": 12
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Positive 5",
+      "paragraphs": [
+        {
+          "context": "The Company shall not be liable for any loss, damage, injury or illness suffered by the Employee. The Employee assumes all risks associated with the performance of duties. (variant 5)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_pos_5",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [
+                {
+                  "text": "shall not be liable for any loss, damage, injury or illness",
+                  "answer_start": 12
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Safe 1",
+      "paragraphs": [
+        {
+          "context": "The Company shall be liable for losses caused by its breach. The Company remains responsible for work-related incidents. (variant 1)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_safe_1",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Safe 2",
+      "paragraphs": [
+        {
+          "context": "The Company shall be liable for losses caused by its breach. The Company remains responsible for work-related incidents. (variant 2)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_safe_2",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Safe 3",
+      "paragraphs": [
+        {
+          "context": "The Company shall be liable for losses caused by its breach. The Company remains responsible for work-related incidents. (variant 3)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_safe_3",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Safe 4",
+      "paragraphs": [
+        {
+          "context": "The Company shall be liable for losses caused by its breach. The Company remains responsible for work-related incidents. (variant 4)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_safe_4",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - unilateral_exemption - Safe 5",
+      "paragraphs": [
+        {
+          "context": "The Company shall be liable for losses caused by its breach. The Company remains responsible for work-related incidents. (variant 5)",
+          "qas": [
+            {
+              "id": "unilateral_exemption_safe_5",
+              "question": "Does this clause exempt only the employer from liability or responsibility?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Positive 1",
+      "paragraphs": [
+        {
+          "context": "Liquidated damages shall apply. The penalty clause imposes liquidated damages equal to three months' salary.  (variant 1)",
+          "qas": [
+            {
+              "id": "excessive_penalty_pos_1",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [
+                {
+                  "text": "liquidated damages equal to three months' salary",
+                  "answer_start": 59
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Positive 2",
+      "paragraphs": [
+        {
+          "context": "Liquidated damages shall apply. The penalty clause imposes liquidated damages equal to three months' salary.  (variant 2)",
+          "qas": [
+            {
+              "id": "excessive_penalty_pos_2",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [
+                {
+                  "text": "liquidated damages equal to three months' salary",
+                  "answer_start": 59
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Positive 3",
+      "paragraphs": [
+        {
+          "context": "Liquidated damages shall apply. The penalty clause imposes liquidated damages equal to three months' salary.  (variant 3)",
+          "qas": [
+            {
+              "id": "excessive_penalty_pos_3",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [
+                {
+                  "text": "liquidated damages equal to three months' salary",
+                  "answer_start": 59
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Positive 4",
+      "paragraphs": [
+        {
+          "context": "Liquidated damages shall apply. The penalty clause imposes liquidated damages equal to three months' salary.  (variant 4)",
+          "qas": [
+            {
+              "id": "excessive_penalty_pos_4",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [
+                {
+                  "text": "liquidated damages equal to three months' salary",
+                  "answer_start": 59
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Positive 5",
+      "paragraphs": [
+        {
+          "context": "Liquidated damages shall apply. The penalty clause imposes liquidated damages equal to three months' salary.  (variant 5)",
+          "qas": [
+            {
+              "id": "excessive_penalty_pos_5",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [
+                {
+                  "text": "liquidated damages equal to three months' salary",
+                  "answer_start": 59
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Safe 1",
+      "paragraphs": [
+        {
+          "context": "Any penalty, if applicable, shall be reasonable and proportionate to actual damages, subject to law. (variant 1)",
+          "qas": [
+            {
+              "id": "excessive_penalty_safe_1",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Safe 2",
+      "paragraphs": [
+        {
+          "context": "Any penalty, if applicable, shall be reasonable and proportionate to actual damages, subject to law. (variant 2)",
+          "qas": [
+            {
+              "id": "excessive_penalty_safe_2",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Safe 3",
+      "paragraphs": [
+        {
+          "context": "Any penalty, if applicable, shall be reasonable and proportionate to actual damages, subject to law. (variant 3)",
+          "qas": [
+            {
+              "id": "excessive_penalty_safe_3",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Safe 4",
+      "paragraphs": [
+        {
+          "context": "Any penalty, if applicable, shall be reasonable and proportionate to actual damages, subject to law. (variant 4)",
+          "qas": [
+            {
+              "id": "excessive_penalty_safe_4",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - excessive_penalty - Safe 5",
+      "paragraphs": [
+        {
+          "context": "Any penalty, if applicable, shall be reasonable and proportionate to actual damages, subject to law. (variant 5)",
+          "qas": [
+            {
+              "id": "excessive_penalty_safe_5",
+              "question": "Are there penalty or liquidated damages clauses that impose excessive financial obligations on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Positive 1",
+      "paragraphs": [
+        {
+          "context": "Termination may occur at the employer's sole discretion for any reason. No further justification is required. (variant 1)",
+          "qas": [
+            {
+              "id": "vague_termination_pos_1",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [
+                {
+                  "text": "at the employer's sole discretion",
+                  "answer_start": 22
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Positive 2",
+      "paragraphs": [
+        {
+          "context": "Termination may occur at the employer's sole discretion for any reason. No further justification is required. (variant 2)",
+          "qas": [
+            {
+              "id": "vague_termination_pos_2",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [
+                {
+                  "text": "at the employer's sole discretion",
+                  "answer_start": 22
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Positive 3",
+      "paragraphs": [
+        {
+          "context": "Termination may occur at the employer's sole discretion for any reason. No further justification is required. (variant 3)",
+          "qas": [
+            {
+              "id": "vague_termination_pos_3",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [
+                {
+                  "text": "at the employer's sole discretion",
+                  "answer_start": 22
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Positive 4",
+      "paragraphs": [
+        {
+          "context": "Termination may occur at the employer's sole discretion for any reason. No further justification is required. (variant 4)",
+          "qas": [
+            {
+              "id": "vague_termination_pos_4",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [
+                {
+                  "text": "at the employer's sole discretion",
+                  "answer_start": 22
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Positive 5",
+      "paragraphs": [
+        {
+          "context": "Termination may occur at the employer's sole discretion for any reason. No further justification is required. (variant 5)",
+          "qas": [
+            {
+              "id": "vague_termination_pos_5",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [
+                {
+                  "text": "at the employer's sole discretion",
+                  "answer_start": 22
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Safe 1",
+      "paragraphs": [
+        {
+          "context": "Termination shall be based on objective performance criteria and applicable legal requirements. (variant 1)",
+          "qas": [
+            {
+              "id": "vague_termination_safe_1",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Safe 2",
+      "paragraphs": [
+        {
+          "context": "Termination shall be based on objective performance criteria and applicable legal requirements. (variant 2)",
+          "qas": [
+            {
+              "id": "vague_termination_safe_2",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Safe 3",
+      "paragraphs": [
+        {
+          "context": "Termination shall be based on objective performance criteria and applicable legal requirements. (variant 3)",
+          "qas": [
+            {
+              "id": "vague_termination_safe_3",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Safe 4",
+      "paragraphs": [
+        {
+          "context": "Termination shall be based on objective performance criteria and applicable legal requirements. (variant 4)",
+          "qas": [
+            {
+              "id": "vague_termination_safe_4",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - vague_termination - Safe 5",
+      "paragraphs": [
+        {
+          "context": "Termination shall be based on objective performance criteria and applicable legal requirements. (variant 5)",
+          "qas": [
+            {
+              "id": "vague_termination_safe_5",
+              "question": "Are the conditions for termination vague, ambiguous, or at the employer's sole discretion?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Positive 1",
+      "paragraphs": [
+        {
+          "context": "The probationary period is unreasonably long and the evaluation criteria are not clearly defined.  (variant 1)",
+          "qas": [
+            {
+              "id": "probation_period_risk_pos_1",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [
+                {
+                  "text": "probationary period is unreasonably long",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Positive 2",
+      "paragraphs": [
+        {
+          "context": "The probationary period is unreasonably long and the evaluation criteria are not clearly defined.  (variant 2)",
+          "qas": [
+            {
+              "id": "probation_period_risk_pos_2",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [
+                {
+                  "text": "probationary period is unreasonably long",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Positive 3",
+      "paragraphs": [
+        {
+          "context": "The probationary period is unreasonably long and the evaluation criteria are not clearly defined.  (variant 3)",
+          "qas": [
+            {
+              "id": "probation_period_risk_pos_3",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [
+                {
+                  "text": "probationary period is unreasonably long",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Positive 4",
+      "paragraphs": [
+        {
+          "context": "The probationary period is unreasonably long and the evaluation criteria are not clearly defined.  (variant 4)",
+          "qas": [
+            {
+              "id": "probation_period_risk_pos_4",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [
+                {
+                  "text": "probationary period is unreasonably long",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Positive 5",
+      "paragraphs": [
+        {
+          "context": "The probationary period is unreasonably long and the evaluation criteria are not clearly defined.  (variant 5)",
+          "qas": [
+            {
+              "id": "probation_period_risk_pos_5",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [
+                {
+                  "text": "probationary period is unreasonably long",
+                  "answer_start": 4
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Safe 1",
+      "paragraphs": [
+        {
+          "context": "The probation period is clearly defined, and evaluation criteria are objectively stated in writing. (variant 1)",
+          "qas": [
+            {
+              "id": "probation_period_risk_safe_1",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Safe 2",
+      "paragraphs": [
+        {
+          "context": "The probation period is clearly defined, and evaluation criteria are objectively stated in writing. (variant 2)",
+          "qas": [
+            {
+              "id": "probation_period_risk_safe_2",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Safe 3",
+      "paragraphs": [
+        {
+          "context": "The probation period is clearly defined, and evaluation criteria are objectively stated in writing. (variant 3)",
+          "qas": [
+            {
+              "id": "probation_period_risk_safe_3",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Safe 4",
+      "paragraphs": [
+        {
+          "context": "The probation period is clearly defined, and evaluation criteria are objectively stated in writing. (variant 4)",
+          "qas": [
+            {
+              "id": "probation_period_risk_safe_4",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - probation_period_risk - Safe 5",
+      "paragraphs": [
+        {
+          "context": "The probation period is clearly defined, and evaluation criteria are objectively stated in writing. (variant 5)",
+          "qas": [
+            {
+              "id": "probation_period_risk_safe_5",
+              "question": "Is there a probation period clause, and is it unreasonably long or without clear evaluation criteria?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Positive 1",
+      "paragraphs": [
+        {
+          "context": "Salary shall be subject to company policy and will be decided by management.  (variant 1)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_pos_1",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [
+                {
+                  "text": "Salary shall be subject to company policy",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Positive 2",
+      "paragraphs": [
+        {
+          "context": "Salary shall be subject to company policy and will be decided by management.  (variant 2)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_pos_2",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [
+                {
+                  "text": "Salary shall be subject to company policy",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Positive 3",
+      "paragraphs": [
+        {
+          "context": "Salary shall be subject to company policy and will be decided by management.  (variant 3)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_pos_3",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [
+                {
+                  "text": "Salary shall be subject to company policy",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Positive 4",
+      "paragraphs": [
+        {
+          "context": "Salary shall be subject to company policy and will be decided by management.  (variant 4)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_pos_4",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [
+                {
+                  "text": "Salary shall be subject to company policy",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Positive 5",
+      "paragraphs": [
+        {
+          "context": "Salary shall be subject to company policy and will be decided by management.  (variant 5)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_pos_5",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [
+                {
+                  "text": "Salary shall be subject to company policy",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Safe 1",
+      "paragraphs": [
+        {
+          "context": "The monthly salary, bonus structure, and payment schedule are clearly stated in this Agreement. (variant 1)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_safe_1",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Safe 2",
+      "paragraphs": [
+        {
+          "context": "The monthly salary, bonus structure, and payment schedule are clearly stated in this Agreement. (variant 2)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_safe_2",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Safe 3",
+      "paragraphs": [
+        {
+          "context": "The monthly salary, bonus structure, and payment schedule are clearly stated in this Agreement. (variant 3)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_safe_3",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Safe 4",
+      "paragraphs": [
+        {
+          "context": "The monthly salary, bonus structure, and payment schedule are clearly stated in this Agreement. (variant 4)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_safe_4",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - wage_payment_unclear - Safe 5",
+      "paragraphs": [
+        {
+          "context": "The monthly salary, bonus structure, and payment schedule are clearly stated in this Agreement. (variant 5)",
+          "qas": [
+            {
+              "id": "wage_payment_unclear_safe_5",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Positive 1",
+      "paragraphs": [
+        {
+          "context": "Working hours may vary as required by business needs. Overtime compensation and leave entitlements are not clearly defined. (variant 1)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_pos_1",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [
+                {
+                  "text": "Working hours may vary as required by business needs",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Positive 2",
+      "paragraphs": [
+        {
+          "context": "Working hours may vary as required by business needs. Overtime compensation and leave entitlements are not clearly defined. (variant 2)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_pos_2",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [
+                {
+                  "text": "Working hours may vary as required by business needs",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Positive 3",
+      "paragraphs": [
+        {
+          "context": "Working hours may vary as required by business needs. Overtime compensation and leave entitlements are not clearly defined. (variant 3)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_pos_3",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [
+                {
+                  "text": "Working hours may vary as required by business needs",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Positive 4",
+      "paragraphs": [
+        {
+          "context": "Working hours may vary as required by business needs. Overtime compensation and leave entitlements are not clearly defined. (variant 4)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_pos_4",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [
+                {
+                  "text": "Working hours may vary as required by business needs",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Positive 5",
+      "paragraphs": [
+        {
+          "context": "Working hours may vary as required by business needs. Overtime compensation and leave entitlements are not clearly defined. (variant 5)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_pos_5",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [
+                {
+                  "text": "Working hours may vary as required by business needs",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Safe 1",
+      "paragraphs": [
+        {
+          "context": "Overtime compensation and leave entitlements are explicitly defined, including payment multipliers. (variant 1)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_safe_1",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Safe 2",
+      "paragraphs": [
+        {
+          "context": "Overtime compensation and leave entitlements are explicitly defined, including payment multipliers. (variant 2)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_safe_2",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Safe 3",
+      "paragraphs": [
+        {
+          "context": "Overtime compensation and leave entitlements are explicitly defined, including payment multipliers. (variant 3)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_safe_3",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Safe 4",
+      "paragraphs": [
+        {
+          "context": "Overtime compensation and leave entitlements are explicitly defined, including payment multipliers. (variant 4)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_safe_4",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - overtime_leave_unclear - Safe 5",
+      "paragraphs": [
+        {
+          "context": "Overtime compensation and leave entitlements are explicitly defined, including payment multipliers. (variant 5)",
+          "qas": [
+            {
+              "id": "overtime_leave_unclear_safe_5",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Positive 1",
+      "paragraphs": [
+        {
+          "context": "After termination, the Employee is prohibited from working for a competitor for a defined period. (variant 1)",
+          "qas": [
+            {
+              "id": "non_compete_pos_1",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [
+                {
+                  "text": "prohibited from working for a competitor",
+                  "answer_start": 35
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Positive 2",
+      "paragraphs": [
+        {
+          "context": "After termination, the Employee is prohibited from working for a competitor for a defined period. (variant 2)",
+          "qas": [
+            {
+              "id": "non_compete_pos_2",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [
+                {
+                  "text": "prohibited from working for a competitor",
+                  "answer_start": 35
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Positive 3",
+      "paragraphs": [
+        {
+          "context": "After termination, the Employee is prohibited from working for a competitor for a defined period. (variant 3)",
+          "qas": [
+            {
+              "id": "non_compete_pos_3",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [
+                {
+                  "text": "prohibited from working for a competitor",
+                  "answer_start": 35
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Positive 4",
+      "paragraphs": [
+        {
+          "context": "After termination, the Employee is prohibited from working for a competitor for a defined period. (variant 4)",
+          "qas": [
+            {
+              "id": "non_compete_pos_4",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [
+                {
+                  "text": "prohibited from working for a competitor",
+                  "answer_start": 35
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Positive 5",
+      "paragraphs": [
+        {
+          "context": "After termination, the Employee is prohibited from working for a competitor for a defined period. (variant 5)",
+          "qas": [
+            {
+              "id": "non_compete_pos_5",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [
+                {
+                  "text": "prohibited from working for a competitor",
+                  "answer_start": 35
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Safe 1",
+      "paragraphs": [
+        {
+          "context": "No non-compete restriction is imposed after employment, except for lawful and limited obligations. (variant 1)",
+          "qas": [
+            {
+              "id": "non_compete_safe_1",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Safe 2",
+      "paragraphs": [
+        {
+          "context": "No non-compete restriction is imposed after employment, except for lawful and limited obligations. (variant 2)",
+          "qas": [
+            {
+              "id": "non_compete_safe_2",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Safe 3",
+      "paragraphs": [
+        {
+          "context": "No non-compete restriction is imposed after employment, except for lawful and limited obligations. (variant 3)",
+          "qas": [
+            {
+              "id": "non_compete_safe_3",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Safe 4",
+      "paragraphs": [
+        {
+          "context": "No non-compete restriction is imposed after employment, except for lawful and limited obligations. (variant 4)",
+          "qas": [
+            {
+              "id": "non_compete_safe_4",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - non_compete - Safe 5",
+      "paragraphs": [
+        {
+          "context": "No non-compete restriction is imposed after employment, except for lawful and limited obligations. (variant 5)",
+          "qas": [
+            {
+              "id": "non_compete_safe_5",
+              "question": "Is there a non-compete or post-employment restriction on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Positive 1",
+      "paragraphs": [
+        {
+          "context": "All inventions created during employment shall belong to the Company. Work product is assigned to the employer. (variant 1)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_pos_1",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [
+                {
+                  "text": "All inventions created during employment shall belong to the Company",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Positive 2",
+      "paragraphs": [
+        {
+          "context": "All inventions created during employment shall belong to the Company. Work product is assigned to the employer. (variant 2)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_pos_2",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [
+                {
+                  "text": "All inventions created during employment shall belong to the Company",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Positive 3",
+      "paragraphs": [
+        {
+          "context": "All inventions created during employment shall belong to the Company. Work product is assigned to the employer. (variant 3)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_pos_3",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [
+                {
+                  "text": "All inventions created during employment shall belong to the Company",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Positive 4",
+      "paragraphs": [
+        {
+          "context": "All inventions created during employment shall belong to the Company. Work product is assigned to the employer. (variant 4)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_pos_4",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [
+                {
+                  "text": "All inventions created during employment shall belong to the Company",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Positive 5",
+      "paragraphs": [
+        {
+          "context": "All inventions created during employment shall belong to the Company. Work product is assigned to the employer. (variant 5)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_pos_5",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [
+                {
+                  "text": "All inventions created during employment shall belong to the Company",
+                  "answer_start": 0
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Safe 1",
+      "paragraphs": [
+        {
+          "context": "Intellectual property created by the Employee outside job duties remains with the Employee, subject to assignment for work product. (variant 1)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_safe_1",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Safe 2",
+      "paragraphs": [
+        {
+          "context": "Intellectual property created by the Employee outside job duties remains with the Employee, subject to assignment for work product. (variant 2)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_safe_2",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Safe 3",
+      "paragraphs": [
+        {
+          "context": "Intellectual property created by the Employee outside job duties remains with the Employee, subject to assignment for work product. (variant 3)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_safe_3",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Safe 4",
+      "paragraphs": [
+        {
+          "context": "Intellectual property created by the Employee outside job duties remains with the Employee, subject to assignment for work product. (variant 4)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_safe_4",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - ip_ownership_assignment - Safe 5",
+      "paragraphs": [
+        {
+          "context": "Intellectual property created by the Employee outside job duties remains with the Employee, subject to assignment for work product. (variant 5)",
+          "qas": [
+            {
+              "id": "ip_ownership_assignment_safe_5",
+              "question": "Does the employer claim ownership of intellectual property created by the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Positive 1",
+      "paragraphs": [
+        {
+          "context": "The Employee shall not disclose proprietary information and trade secrets to any third party. (variant 1)",
+          "qas": [
+            {
+              "id": "confidentiality_pos_1",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [
+                {
+                  "text": "shall not disclose proprietary information",
+                  "answer_start": 13
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Positive 2",
+      "paragraphs": [
+        {
+          "context": "The Employee shall not disclose proprietary information and trade secrets to any third party. (variant 2)",
+          "qas": [
+            {
+              "id": "confidentiality_pos_2",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [
+                {
+                  "text": "shall not disclose proprietary information",
+                  "answer_start": 13
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Positive 3",
+      "paragraphs": [
+        {
+          "context": "The Employee shall not disclose proprietary information and trade secrets to any third party. (variant 3)",
+          "qas": [
+            {
+              "id": "confidentiality_pos_3",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [
+                {
+                  "text": "shall not disclose proprietary information",
+                  "answer_start": 13
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Positive 4",
+      "paragraphs": [
+        {
+          "context": "The Employee shall not disclose proprietary information and trade secrets to any third party. (variant 4)",
+          "qas": [
+            {
+              "id": "confidentiality_pos_4",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [
+                {
+                  "text": "shall not disclose proprietary information",
+                  "answer_start": 13
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Positive 5",
+      "paragraphs": [
+        {
+          "context": "The Employee shall not disclose proprietary information and trade secrets to any third party. (variant 5)",
+          "qas": [
+            {
+              "id": "confidentiality_pos_5",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [
+                {
+                  "text": "shall not disclose proprietary information",
+                  "answer_start": 13
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Safe 1",
+      "paragraphs": [
+        {
+          "context": "Confidential information is defined with reasonable scope and does not restrict lawful disclosure requirements. (variant 1)",
+          "qas": [
+            {
+              "id": "confidentiality_safe_1",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Safe 2",
+      "paragraphs": [
+        {
+          "context": "Confidential information is defined with reasonable scope and does not restrict lawful disclosure requirements. (variant 2)",
+          "qas": [
+            {
+              "id": "confidentiality_safe_2",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Safe 3",
+      "paragraphs": [
+        {
+          "context": "Confidential information is defined with reasonable scope and does not restrict lawful disclosure requirements. (variant 3)",
+          "qas": [
+            {
+              "id": "confidentiality_safe_3",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Safe 4",
+      "paragraphs": [
+        {
+          "context": "Confidential information is defined with reasonable scope and does not restrict lawful disclosure requirements. (variant 4)",
+          "qas": [
+            {
+              "id": "confidentiality_safe_4",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - confidentiality - Safe 5",
+      "paragraphs": [
+        {
+          "context": "Confidential information is defined with reasonable scope and does not restrict lawful disclosure requirements. (variant 5)",
+          "qas": [
+            {
+              "id": "confidentiality_safe_5",
+              "question": "Is there a confidentiality or non-disclosure obligation imposed on the employee?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Positive 1",
+      "paragraphs": [
+        {
+          "context": "Any dispute arising from this contract shall be submitted to labor arbitration for arbitration. (variant 1)",
+          "qas": [
+            {
+              "id": "dispute_resolution_pos_1",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [
+                {
+                  "text": "labor arbitration",
+                  "answer_start": 61
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Positive 2",
+      "paragraphs": [
+        {
+          "context": "Any dispute arising from this contract shall be submitted to labor arbitration for arbitration. (variant 2)",
+          "qas": [
+            {
+              "id": "dispute_resolution_pos_2",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [
+                {
+                  "text": "labor arbitration",
+                  "answer_start": 61
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Positive 3",
+      "paragraphs": [
+        {
+          "context": "Any dispute arising from this contract shall be submitted to labor arbitration for arbitration. (variant 3)",
+          "qas": [
+            {
+              "id": "dispute_resolution_pos_3",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [
+                {
+                  "text": "labor arbitration",
+                  "answer_start": 61
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Positive 4",
+      "paragraphs": [
+        {
+          "context": "Any dispute arising from this contract shall be submitted to labor arbitration for arbitration. (variant 4)",
+          "qas": [
+            {
+              "id": "dispute_resolution_pos_4",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [
+                {
+                  "text": "labor arbitration",
+                  "answer_start": 61
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Positive 5",
+      "paragraphs": [
+        {
+          "context": "Any dispute arising from this contract shall be submitted to labor arbitration for arbitration. (variant 5)",
+          "qas": [
+            {
+              "id": "dispute_resolution_pos_5",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [
+                {
+                  "text": "labor arbitration",
+                  "answer_start": 61
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Safe 1",
+      "paragraphs": [
+        {
+          "context": "Disputes will be handled through negotiation and, if necessary, a court proceeding under applicable law. (variant 1)",
+          "qas": [
+            {
+              "id": "dispute_resolution_safe_1",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Safe 2",
+      "paragraphs": [
+        {
+          "context": "Disputes will be handled through negotiation and, if necessary, a court proceeding under applicable law. (variant 2)",
+          "qas": [
+            {
+              "id": "dispute_resolution_safe_2",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Safe 3",
+      "paragraphs": [
+        {
+          "context": "Disputes will be handled through negotiation and, if necessary, a court proceeding under applicable law. (variant 3)",
+          "qas": [
+            {
+              "id": "dispute_resolution_safe_3",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Safe 4",
+      "paragraphs": [
+        {
+          "context": "Disputes will be handled through negotiation and, if necessary, a court proceeding under applicable law. (variant 4)",
+          "qas": [
+            {
+              "id": "dispute_resolution_safe_4",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - dispute_resolution - Safe 5",
+      "paragraphs": [
+        {
+          "context": "Disputes will be handled through negotiation and, if necessary, a court proceeding under applicable law. (variant 5)",
+          "qas": [
+            {
+              "id": "dispute_resolution_safe_5",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_dispute_resolution (Missing) 1",
+      "paragraphs": [
+        {
+          "context": "This employment agreement outlines duties, confidentiality and benefits, but it does not specify any dispute resolution or arbitration mechanism. (variant 1)",
+          "qas": [
+            {
+              "id": "missing_dispute_resolution_missing_1",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_dispute_resolution (Missing) 2",
+      "paragraphs": [
+        {
+          "context": "This employment agreement outlines duties, confidentiality and benefits, but it does not specify any dispute resolution or arbitration mechanism. (variant 2)",
+          "qas": [
+            {
+              "id": "missing_dispute_resolution_missing_2",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_dispute_resolution (Missing) 3",
+      "paragraphs": [
+        {
+          "context": "This employment agreement outlines duties, confidentiality and benefits, but it does not specify any dispute resolution or arbitration mechanism. (variant 3)",
+          "qas": [
+            {
+              "id": "missing_dispute_resolution_missing_3",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_dispute_resolution (Missing) 4",
+      "paragraphs": [
+        {
+          "context": "This employment agreement outlines duties, confidentiality and benefits, but it does not specify any dispute resolution or arbitration mechanism. (variant 4)",
+          "qas": [
+            {
+              "id": "missing_dispute_resolution_missing_4",
+              "question": "Is there a dispute resolution or labor arbitration mechanism specified?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_termination_process (Missing) 1",
+      "paragraphs": [
+        {
+          "context": "This agreement defines employment terms and benefits, but does not provide any termination procedure or notice period. (variant 1)",
+          "qas": [
+            {
+              "id": "missing_termination_process_missing_1",
+              "question": "Does the contract provide a termination procedure or notice period?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_termination_process (Missing) 2",
+      "paragraphs": [
+        {
+          "context": "This agreement defines employment terms and benefits, but does not provide any termination procedure or notice period. (variant 2)",
+          "qas": [
+            {
+              "id": "missing_termination_process_missing_2",
+              "question": "Does the contract provide a termination procedure or notice period?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_termination_process (Missing) 3",
+      "paragraphs": [
+        {
+          "context": "This agreement defines employment terms and benefits, but does not provide any termination procedure or notice period. (variant 3)",
+          "qas": [
+            {
+              "id": "missing_termination_process_missing_3",
+              "question": "Does the contract provide a termination procedure or notice period?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_termination_process (Missing) 4",
+      "paragraphs": [
+        {
+          "context": "This agreement defines employment terms and benefits, but does not provide any termination procedure or notice period. (variant 4)",
+          "qas": [
+            {
+              "id": "missing_termination_process_missing_4",
+              "question": "Does the contract provide a termination procedure or notice period?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_wage_details (Missing) 1",
+      "paragraphs": [
+        {
+          "context": "This agreement describes responsibilities and location, but does not specify salary, bonus, or payment schedule details. (variant 1)",
+          "qas": [
+            {
+              "id": "missing_wage_details_missing_1",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_wage_details (Missing) 2",
+      "paragraphs": [
+        {
+          "context": "This agreement describes responsibilities and location, but does not specify salary, bonus, or payment schedule details. (variant 2)",
+          "qas": [
+            {
+              "id": "missing_wage_details_missing_2",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_wage_details (Missing) 3",
+      "paragraphs": [
+        {
+          "context": "This agreement describes responsibilities and location, but does not specify salary, bonus, or payment schedule details. (variant 3)",
+          "qas": [
+            {
+              "id": "missing_wage_details_missing_3",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_wage_details (Missing) 4",
+      "paragraphs": [
+        {
+          "context": "This agreement describes responsibilities and location, but does not specify salary, bonus, or payment schedule details. (variant 4)",
+          "qas": [
+            {
+              "id": "missing_wage_details_missing_4",
+              "question": "Are the salary amount, bonus, or payment schedule clearly stated?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_work_hours (Missing) 1",
+      "paragraphs": [
+        {
+          "context": "This agreement outlines duties and working arrangements generally, but does not define overtime compensation or leave entitlements. (variant 1)",
+          "qas": [
+            {
+              "id": "missing_work_hours_missing_1",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_work_hours (Missing) 2",
+      "paragraphs": [
+        {
+          "context": "This agreement outlines duties and working arrangements generally, but does not define overtime compensation or leave entitlements. (variant 2)",
+          "qas": [
+            {
+              "id": "missing_work_hours_missing_2",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_work_hours (Missing) 3",
+      "paragraphs": [
+        {
+          "context": "This agreement outlines duties and working arrangements generally, but does not define overtime compensation or leave entitlements. (variant 3)",
+          "qas": [
+            {
+              "id": "missing_work_hours_missing_3",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_work_hours (Missing) 4",
+      "paragraphs": [
+        {
+          "context": "This agreement outlines duties and working arrangements generally, but does not define overtime compensation or leave entitlements. (variant 4)",
+          "qas": [
+            {
+              "id": "missing_work_hours_missing_4",
+              "question": "Are overtime work requirements, compensation, or leave entitlements clearly defined?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_data_privacy (Missing) 1",
+      "paragraphs": [
+        {
+          "context": "This agreement contains general obligations, but does not include any data privacy policy regarding employee personal data. (variant 1)",
+          "qas": [
+            {
+              "id": "missing_data_privacy_missing_1",
+              "question": "Is there a data / privacy policy regarding employee personal data?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_data_privacy (Missing) 2",
+      "paragraphs": [
+        {
+          "context": "This agreement contains general obligations, but does not include any data privacy policy regarding employee personal data. (variant 2)",
+          "qas": [
+            {
+              "id": "missing_data_privacy_missing_2",
+              "question": "Is there a data / privacy policy regarding employee personal data?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_data_privacy (Missing) 3",
+      "paragraphs": [
+        {
+          "context": "This agreement contains general obligations, but does not include any data privacy policy regarding employee personal data. (variant 3)",
+          "qas": [
+            {
+              "id": "missing_data_privacy_missing_3",
+              "question": "Is there a data / privacy policy regarding employee personal data?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Employment Contract - missing_data_privacy (Missing) 4",
+      "paragraphs": [
+        {
+          "context": "This agreement contains general obligations, but does not include any data privacy policy regarding employee personal data. (variant 4)",
+          "qas": [
+            {
+              "id": "missing_data_privacy_missing_4",
+              "question": "Is there a data / privacy policy regarding employee personal data?",
+              "answers": [],
+              "is_impossible": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

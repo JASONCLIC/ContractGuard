@@ -1,0 +1,155 @@
+{
+  "tag": "Out-of-Sample (Held-out Test Data)",
+  "qa_pairs": 51,
+  "contracts": 3,
+  "entity_fields": [
+    "party_a",
+    "party_b",
+    "job_title",
+    "work_location",
+    "salary_amount",
+    "payment_cycle"
+  ],
+  "metrics": {
+    "per_field": {
+      "party_a": {
+        "count": 9,
+        "strict": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "canonical": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "identification_rate": 1.0
+      },
+      "party_b": {
+        "count": 9,
+        "strict": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "canonical": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "identification_rate": 1.0
+      },
+      "job_title": {
+        "count": 9,
+        "strict": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "canonical": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "identification_rate": 1.0
+      },
+      "work_location": {
+        "count": 9,
+        "strict": {
+          "EM": 0.0,
+          "P": 0.8444444444444444,
+          "R": 0.8666666666666667,
+          "F1": 0.8280864197530865
+        },
+        "canonical": {
+          "EM": 0.0,
+          "P": 0.0,
+          "R": 0.0,
+          "F1": 0.0
+        },
+        "identification_rate": 1.0
+      },
+      "salary_amount": {
+        "count": 6,
+        "strict": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "canonical": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "identification_rate": 1.0
+      },
+      "payment_cycle": {
+        "count": 9,
+        "strict": {
+          "EM": 0.8888888888888888,
+          "P": 0.9629629629629629,
+          "R": 1.0,
+          "F1": 0.9777777777777779
+        },
+        "canonical": {
+          "EM": 1.0,
+          "P": 1.0,
+          "R": 1.0,
+          "F1": 1.0
+        },
+        "identification_rate": 1.0
+      }
+    },
+    "per_contract": {
+      "6": {
+        "count": 15,
+        "strict_f1_mean": 0.9718518518518519,
+        "strict_em_mean": 0.8,
+        "canonical_f1_mean": 0.8
+      },
+      "9": {
+        "count": 18,
+        "strict_f1_mean": 0.9680555555555556,
+        "strict_em_mean": 0.7777777777777778,
+        "canonical_f1_mean": 0.8333333333333334
+      },
+      "12": {
+        "count": 18,
+        "strict_f1_mean": 0.9583333333333334,
+        "strict_em_mean": 0.8333333333333334,
+        "canonical_f1_mean": 0.8333333333333334
+      }
+    },
+    "overall": {
+      "strict": {
+        "EM": 0.803921568627451,
+        "P": 0.9660130718954248,
+        "R": 0.9764705882352941,
+        "F1": 0.9657407407407408,
+        "F1_std": 0.07399096645047501
+      },
+      "canonical": {
+        "EM": 0.8235294117647058,
+        "P": 0.8235294117647058,
+        "R": 0.8235294117647058,
+        "F1": 0.8235294117647058,
+        "F1_std": 0.3812200410828154
+      }
+    }
+  },
+  "e2e_db": {
+    "status": "ok",
+    "contracts": 1,
+    "field_pairs": 12,
+    "e2e_em": 0.9166666666666666
+  }
+}

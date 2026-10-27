@@ -1,0 +1,266 @@
+[
+  {
+    "category_key": "salary",
+    "category_label": "Salary Clauses",
+    "title": "Standard Salary Clause",
+    "content": "Party B's monthly salary shall be RMB ____ (pre-tax), paid to Party B's designated bank account by bank transfer on the ____ day of each month, and shall not be withheld or deducted without cause.",
+    "tip": "Always specify the exact salary amount, payment date, and payment method. Avoid vague language such as 'subject to company policy'.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "salary",
+    "category_label": "Salary Clauses",
+    "title": "Performance Bonus Clause",
+    "content": "Party B's annual performance bonus shall be determined by mutual agreement based on actual work performance, and shall be no less than RMB ____, paid before ____ of the following year.",
+    "tip": "Bonus arrangements should clearly define the calculation basis and payment timeline to prevent the employer from refusing payment on grounds of 'unmet performance targets'.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "probation",
+    "category_label": "Probation Clauses",
+    "title": "Standard Probation Clause",
+    "content": "The probation period under this contract is ____ months, from ____ to ____. Party B's salary during probation shall be 80% of the post-probation salary and shall not be lower than the minimum wage for the same position at the employer.",
+    "tip": "The probation period may not exceed 6 months, and the same employer may only set one probation period. Salary during probation must be at least 80% of the confirmed salary.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "probation",
+    "category_label": "Probation Clauses",
+    "title": "Probation Evaluation Clause",
+    "content": "Party A shall conduct a probation evaluation of Party B based on the following criteria: ____. The evaluation results must be communicated to Party B in writing, and Party B has the right to appeal.",
+    "tip": "Evaluation criteria must be clearly defined and communicated in writing in advance. Otherwise, termination on grounds of 'not meeting hiring requirements' may be deemed unlawful.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "termination",
+    "category_label": "Termination Conditions",
+    "title": "Termination by Mutual Agreement",
+    "content": "This contract may be terminated by mutual agreement of both parties. If Party A initiates the termination, it shall pay Party B severance compensation in accordance with the law.",
+    "tip": "Termination by mutual agreement requires the genuine consent of both parties. Agreements signed under unilateral pressure from the employer may be subject to rescission.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "termination",
+    "category_label": "Termination Conditions",
+    "title": "Advance Notice Termination Clause",
+    "content": "Party B may terminate this contract by providing Party A with 30 days' written notice. During the probation period, Party B may terminate with 3 days' notice.",
+    "tip": "The statutory minimum notice period is 30 days (3 days during probation). Contracts may not impose a longer notice period on the employee.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "breach",
+    "category_label": "Breach of Contract",
+    "title": "Specialized Training Service Period Clause",
+    "content": "Party A shall invest RMB ____ to provide Party B with specialized technical training. Party B shall serve for at least ____ years. If Party B resigns early, the training costs shall be reimbursed on a pro-rata basis for the remaining service period, not to exceed the total actual training costs.",
+    "tip": "Liquidated damages may only be stipulated in two situations: specialized training and non-compete agreements. The amount may not exceed the actual training costs.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "breach",
+    "category_label": "Breach of Contract",
+    "title": "Non-Compete Clause",
+    "content": "Within ____ months after leaving employment, Party B shall not work for any entity that competes with Party A. Party A shall pay Party B monthly non-compete compensation of no less than 30% of Party B's average monthly salary during employment.",
+    "tip": "Non-compete clauses require corresponding compensation; otherwise the employee may refuse to comply. If compensation is below 30% of the average monthly salary, the employee may seek an increase.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "dispute",
+    "category_label": "Dispute Resolution",
+    "title": "Standard Dispute Resolution Clause",
+    "content": "In the event of a dispute arising from the performance of this contract, both parties shall first attempt friendly negotiation. If negotiation fails, either party may apply for arbitration with the ____ Labor Dispute Arbitration Commission. If dissatisfied with the arbitral award, either party may bring a lawsuit before the People's Court in accordance with the law.",
+    "tip": "The designated arbitration body must be a labor dispute arbitration commission with proper jurisdiction. Commercial arbitration does not apply to labor disputes.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "working_hours",
+    "category_label": "Working Hours",
+    "title": "Standard Working Hours Clause",
+    "content": "Party B shall follow the standard working hours system: no more than 8 hours per day, no more than 40 hours per week, with at least 1 rest day per week. Overtime must be approved in writing by Party A and compensated at no less than ____ times the regular wage as required by law.",
+    "tip": "Overtime pay multipliers: 1.5x on regular workdays, 2x on rest days, 3x on statutory holidays. These rates must be explicitly stated in the contract.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "working_hours",
+    "category_label": "Working Hours",
+    "title": "Comprehensive Working Hours Clause",
+    "content": "With approval from the labor administration authority, Party B shall implement a comprehensive working hours system with a calculation cycle of ____. Any hours exceeding the statutory standard within the calculation period shall be treated as overtime and compensated accordingly.",
+    "tip": "The comprehensive working hours system requires approval from the labor administration authority. Without such approval, the standard working hours system still applies.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "annual_leave",
+    "category_label": "Annual Leave & Holidays",
+    "title": "Paid Annual Leave Clause",
+    "content": "Party B shall be entitled to ____ days of paid annual leave per year in accordance with the Regulation on Paid Annual Leave for Employees. The specific schedule shall be arranged through consultation between both parties. If Party B is unable to take annual leave due to work requirements, Party A shall pay additional wages at 300% of the daily rate for each unused leave day.",
+    "tip": "Statutory annual leave: 5 days for 1-10 years of service, 10 days for 10-20 years, 15 days for 20+ years. Employers cannot unilaterally cancel or replace annual leave with other time off.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "annual_leave",
+    "category_label": "Annual Leave & Holidays",
+    "title": "Statutory Holiday Clause",
+    "content": "Party B shall enjoy paid holidays on all statutory public holidays as prescribed by the State Council. If Party B is required to work on a statutory holiday, Party A shall pay overtime compensation at no less than 300% of Party B's daily wage.",
+    "tip": "China has 11 statutory holidays per year. Working on these days entitles the employee to 3x pay — compensatory rest is not a substitute for statutory holiday overtime pay.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "annual_leave",
+    "category_label": "Annual Leave & Holidays",
+    "title": "Sick Leave Clause",
+    "content": "During the medical treatment period, Party B shall be entitled to sick leave in accordance with the Regulations on the Medical Treatment Period for Enterprise Employees. Party A shall pay sick leave wages at no less than ____% of Party B's normal salary, and in no event below the local minimum wage standard.",
+    "tip": "Sick leave wages typically must not fall below 80% of the local minimum wage. The medical treatment period ranges from 3 to 24 months depending on the employee's total and company-specific years of service.",
+    "sort_order": 3
+  },
+  {
+    "category_key": "social_insurance",
+    "category_label": "Social Insurance & Benefits",
+    "title": "Social Insurance Contribution Clause",
+    "content": "Party A shall, in accordance with national and local regulations, contribute to pension insurance, medical insurance, unemployment insurance, work-related injury insurance, and maternity insurance for Party B from the date of commencement of employment. Party A shall also make housing provident fund contributions in accordance with applicable regulations.",
+    "tip": "Social insurance contributions are mandatory from the first day of employment — not from the end of probation. Any agreement to waive social insurance is void.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "social_insurance",
+    "category_label": "Social Insurance & Benefits",
+    "title": "Supplementary Benefits Clause",
+    "content": "In addition to statutory social insurance, Party A shall provide Party B with the following supplementary benefits: (1) supplementary commercial medical insurance; (2) annual health check-up; (3) meal allowance of RMB ____ per month; (4) transportation allowance of RMB ____ per month.",
+    "tip": "Supplementary benefits should be clearly itemised with specific amounts. Vague promises like 'benefits per company policy' leave room for the employer to reduce or cancel them unilaterally.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "confidentiality",
+    "category_label": "Confidentiality & IP",
+    "title": "Confidentiality Obligation Clause",
+    "content": "Party B shall keep strictly confidential all trade secrets and proprietary information of Party A obtained during the course of employment, including but not limited to technical data, client lists, financial information, and business strategies. This confidentiality obligation shall survive the termination or expiration of this contract.",
+    "tip": "Unlike non-compete clauses, confidentiality obligations do not require separate compensation and can last indefinitely. However, the scope of confidential information should be clearly defined.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "confidentiality",
+    "category_label": "Confidentiality & IP",
+    "title": "Intellectual Property Assignment Clause",
+    "content": "All inventions, designs, software, works of authorship, and other intellectual property created by Party B during the course of employment and related to Party A's business or using Party A's resources shall belong to Party A. Party A shall pay Party B a reasonable invention reward and remuneration in accordance with the Patent Law and company policy.",
+    "tip": "IP assignment should be limited to work-related creations. Claiming ownership of inventions created entirely in the employee's personal time and unrelated to the employer's business is generally unenforceable.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "confidentiality",
+    "category_label": "Confidentiality & IP",
+    "title": "Non-Solicitation Clause",
+    "content": "For a period of ____ months after the termination of this contract, Party B shall not directly or indirectly solicit, recruit, or induce any employee of Party A to leave their employment, nor shall Party B solicit or divert any client or business partner of Party A.",
+    "tip": "Non-solicitation clauses are enforceable but should have a reasonable duration (typically 12-24 months). Unlike non-compete clauses, there is no statutory compensation requirement, but excessively broad clauses may be struck down.",
+    "sort_order": 3
+  },
+  {
+    "category_key": "workplace_safety",
+    "category_label": "Workplace Safety",
+    "title": "Occupational Safety Clause",
+    "content": "Party A shall provide Party B with working conditions that meet national occupational health and safety standards, including necessary protective equipment and regular safety training. Party A shall conduct occupational health examinations for Party B before employment, during employment, and upon departure.",
+    "tip": "Employers bear the primary responsibility for workplace safety. Pre-employment and post-employment health checks are mandatory for positions with occupational hazard exposure.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "workplace_safety",
+    "category_label": "Workplace Safety",
+    "title": "Work-Related Injury Clause",
+    "content": "In the event of a work-related injury or occupational disease, Party A shall promptly apply for a work-related injury determination and ensure Party B receives medical treatment. All work-related injury benefits shall be paid in accordance with the Regulation on Work-Related Injury Insurance, and Party A shall not cap or limit such benefits below statutory standards.",
+    "tip": "Employers must apply for a work-injury determination within 30 days of the accident. If the employer fails to do so, the employee or their family may apply directly within 1 year.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "maternity",
+    "category_label": "Maternity & Parental Leave",
+    "title": "Maternity Leave Clause",
+    "content": "Female employees shall be entitled to 98 days of maternity leave (including 15 days of prenatal leave), with additional leave for difficult births or multiple births as prescribed by law. During the maternity leave period, Party B's salary shall be paid as normal or covered by maternity insurance in accordance with applicable regulations.",
+    "tip": "Many provinces offer additional maternity leave days beyond the statutory 98 days. Check local regulations for the applicable total. The employer may not terminate or reduce the salary of an employee during pregnancy, maternity leave, or nursing period.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "maternity",
+    "category_label": "Maternity & Parental Leave",
+    "title": "Paternity Leave Clause",
+    "content": "Upon the birth of a child, the male employee (Party B) shall be entitled to ____ days of paid paternity leave in accordance with local regulations. The leave shall be taken consecutively and the salary shall be paid as normal during the leave period.",
+    "tip": "Paternity leave varies by province, typically ranging from 10 to 30 days. Check local population and family planning regulations for the specific entitlement.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "work_location",
+    "category_label": "Work Location & Travel",
+    "title": "Work Location Clause",
+    "content": "Party B's primary work location shall be ____. Any change to the work location shall be agreed upon by both parties through written consultation. If Party A needs to relocate Party B's work location due to operational requirements, reasonable compensation for additional commuting costs shall be provided.",
+    "tip": "The work location is a mandatory term under the Labour Contract Law. Unilateral relocation by the employer without consent may constitute a constructive dismissal.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "work_location",
+    "category_label": "Work Location & Travel",
+    "title": "Business Travel Clause",
+    "content": "Party B shall undertake reasonable business travel as required by work needs. Party A shall reimburse all travel expenses including transportation, accommodation, and meal allowances in accordance with the company's travel reimbursement policy. The daily travel allowance shall be no less than RMB ____ per day.",
+    "tip": "Business travel reimbursement policies should be clearly stated in writing. Employees are not obligated to fund business travel out of pocket.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "contract_term",
+    "category_label": "Contract Term & Renewal",
+    "title": "Fixed-Term Contract Clause",
+    "content": "This contract shall be effective from ____ to ____, for a total term of ____ years. Upon expiry, both parties may negotiate a renewal. If this is the third consecutive fixed-term contract between the parties, Party B shall have the right to request an open-ended contract.",
+    "tip": "After two consecutive fixed-term contracts, failing to offer an open-ended contract upon the employee's request may constitute unlawful termination, requiring double severance compensation.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "contract_term",
+    "category_label": "Contract Term & Renewal",
+    "title": "Open-Ended Contract Clause",
+    "content": "This is an open-ended employment contract effective from ____. Either party may terminate this contract in accordance with the conditions and procedures prescribed by the Labour Contract Law. Upon lawful termination by Party A, severance shall be paid in accordance with the law.",
+    "tip": "An open-ended contract does not mean permanent employment — it can still be lawfully terminated under statutory conditions. It simply has no fixed end date.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "severance",
+    "category_label": "Severance & Offboarding",
+    "title": "Severance Payment Clause",
+    "content": "If this contract is terminated under circumstances requiring severance under the Labour Contract Law, Party A shall pay economic compensation at the rate of one month's salary for each full year of service. Service of six months or more but less than one year shall be counted as one year; service of less than six months shall entitle Party B to half a month's salary.",
+    "tip": "The 'monthly salary' for severance calculation is the average monthly wage over the 12 months preceding termination, including bonuses and allowances — not just base salary.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "severance",
+    "category_label": "Severance & Offboarding",
+    "title": "Offboarding and Handover Clause",
+    "content": "Upon termination or expiration of this contract, Party B shall complete work handover within ____ working days in accordance with Party A's offboarding procedures. Party A shall issue a certificate of termination on the date of termination and complete the transfer of social insurance and personnel files within 15 days.",
+    "tip": "Employers are legally required to issue a termination certificate and transfer files. Withholding these documents to pressure employees is unlawful.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "data_privacy",
+    "category_label": "Data Privacy & Personal Information",
+    "title": "Employee Data Protection Clause",
+    "content": "Party A shall collect and process Party B's personal information only for purposes directly related to employment management, and shall obtain Party B's consent before collecting sensitive personal information such as biometric data, health records, or financial information. Party A shall implement appropriate security measures to protect Party B's personal data.",
+    "tip": "Under the Personal Information Protection Law, employers must follow the principles of lawfulness, necessity, and minimum data collection. Employees have the right to access, correct, and delete their personal data.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "data_privacy",
+    "category_label": "Data Privacy & Personal Information",
+    "title": "Employee Monitoring Disclosure Clause",
+    "content": "Party A may monitor Party B's use of company-provided equipment and networks for legitimate business and security purposes. Party A shall inform Party B in writing of the scope, methods, and purposes of such monitoring before implementation. Monitoring shall not extend to Party B's personal devices or private communications.",
+    "tip": "Workplace monitoring must be disclosed and proportionate. Covert surveillance without notice may violate privacy rights, and monitoring personal devices or communications outside work is generally unlawful.",
+    "sort_order": 2
+  },
+  {
+    "category_key": "force_majeure",
+    "category_label": "Force Majeure & Special Circumstances",
+    "title": "Force Majeure Clause",
+    "content": "Neither party shall be liable for failure to perform its obligations under this contract if such failure is caused by force majeure events, including but not limited to natural disasters, epidemics, wars, government actions, or other unforeseeable and unavoidable circumstances. The affected party shall notify the other party in writing within ____ days and provide relevant evidence.",
+    "tip": "Force majeure clauses should define the notification timeline and evidence requirements. During force majeure events, employment relationships are generally suspended rather than terminated.",
+    "sort_order": 1
+  },
+  {
+    "category_key": "force_majeure",
+    "category_label": "Force Majeure & Special Circumstances",
+    "title": "Contract Suspension Clause",
+    "content": "Where Party B is unable to perform duties due to legally prescribed circumstances (including but not limited to military service, jury duty, or participation in legally required public activities), the performance of this contract shall be suspended. Party B's position shall be reserved, and the contract shall resume upon the conclusion of the relevant circumstance.",
+    "tip": "Contract suspension preserves the employment relationship. The employer may not terminate the contract during legally protected suspension periods.",
+    "sort_order": 2
+  }
+]

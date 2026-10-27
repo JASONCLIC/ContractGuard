@@ -1,0 +1,53 @@
+{
+  "description": "CUAD 41 clause categories mapped to ContractGuard's 10+1 risk keys. Used by build_cuad_dataset.py and train_cuad_classifier.py at runtime.",
+  "cuad_category_to_risk_key": {
+    "Non-Compete":                  "non_compete",
+    "No-Solicit Of Customers":      "non_compete",
+    "No-Solicit Of Employees":      "non_compete",
+    "Ip Ownership Assignment":      "ip_ownership_assignment",
+    "Joint Ip Ownership":           "ip_ownership_assignment",
+    "Liquidated Damages":           "excessive_penalty",
+    "Uncapped Liability":           "excessive_penalty",
+    "Cap On Liability":             "unilateral_exemption",
+    "Product Liability":            "unilateral_exemption",
+    "Termination For Convenience":  "vague_termination",
+    "Non-Disparagement":            "confidentiality",
+    "Confidentiality Of Agreement": "confidentiality",
+    "Governing Law":                "dispute_resolution"
+  },
+  "synthetic_labels": [
+    {
+      "label": "emp_unilateral_exemption",
+      "risk_key": "unilateral_exemption",
+      "notes": "Employer unilateral disclaimer / imbalanced liability clauses"
+    },
+    {
+      "label": "emp_wage_payment_unclear",
+      "risk_key": "wage_payment_unclear",
+      "notes": "Salary, bonus, or payment terms left vague or discretionary"
+    },
+    {
+      "label": "emp_overtime_leave_unclear",
+      "risk_key": "overtime_leave_unclear",
+      "notes": "Working hours, overtime, or leave entitlements not specified"
+    },
+    {
+      "label": "emp_probation_period_risk",
+      "risk_key": "probation_period_risk",
+      "notes": "Probation terms unreasonable, vague, or excessively long"
+    }
+  ],
+  "risk_keys": [
+    "unilateral_exemption",
+    "excessive_penalty",
+    "vague_termination",
+    "probation_period_risk",
+    "wage_payment_unclear",
+    "overtime_leave_unclear",
+    "non_compete",
+    "ip_ownership_assignment",
+    "confidentiality",
+    "dispute_resolution",
+    "no_risk"
+  ]
+}

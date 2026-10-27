@@ -1,0 +1,2265 @@
+{
+  "version": "v1.0-contract",
+  "data": [
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "LABOR CONTRACT\n\nParty A: Shanghai Yuanjing Information Technology Co., Ltd.\nParty B: Li Si\n\nArticle 1 Term of Contract\nThe contract term is 3 years, from March 1, 2023 to February 28, 2026.\n\nArticle 2 Position\nParty B's position: Data Analyst, Work Location: Lujiazui Financial Center, Pudong New Area, Shanghai.\n\nArticle 3 Salary\nParty B's monthly salary is 20,000 RMB, paid on the 10th day of each month.\n\nArticle 4 Breach Liability\nLiquidated damages are three times the monthly salary.\n\nArticle 5 Dispute Resolution\nSubmit to Shanghai Arbitration Commission for arbitration.",
+          "qas": [
+            {
+              "id": "c50_fparty_a_q1",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Shanghai Yuanjing Information Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fparty_a_q2",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Shanghai Yuanjing Information Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fparty_a_q3",
+              "question": "Which company signs this agreement as employer?",
+              "answers": [
+                {
+                  "text": "Shanghai Yuanjing Information Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fparty_b_q4",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Li Si",
+                  "answer_start": 85
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fparty_b_q5",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Li Si",
+                  "answer_start": 85
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fparty_b_q6",
+              "question": "Who signs as the employee in this agreement?",
+              "answers": [
+                {
+                  "text": "Li Si",
+                  "answer_start": 85
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fjob_title_q7",
+              "question": "What is the job title of the employee?",
+              "answers": [
+                {
+                  "text": "Data Analyst",
+                  "answer_start": 230
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fjob_title_q8",
+              "question": "What position does the employee hold?",
+              "answers": [
+                {
+                  "text": "Data Analyst",
+                  "answer_start": 230
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fjob_title_q9",
+              "question": "What role is assigned to Party B?",
+              "answers": [
+                {
+                  "text": "Data Analyst",
+                  "answer_start": 230
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fwork_location_q10",
+              "question": "Where is the workplace located?",
+              "answers": [
+                {
+                  "text": "Lujiazui Financial Center, Pudong New Area, Shanghai",
+                  "answer_start": 259
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fwork_location_q11",
+              "question": "What is the working location of the employee?",
+              "answers": [
+                {
+                  "text": "Lujiazui Financial Center, Pudong New Area, Shanghai",
+                  "answer_start": 259
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fwork_location_q12",
+              "question": "Where will Party B perform their job duties?",
+              "answers": [
+                {
+                  "text": "Lujiazui Financial Center, Pudong New Area, Shanghai",
+                  "answer_start": 259
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fpayment_cycle_q16",
+              "question": "On which day is the salary paid?",
+              "answers": [
+                {
+                  "text": "10th day of each month",
+                  "answer_start": 383
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fpayment_cycle_q17",
+              "question": "When is the salary payment date?",
+              "answers": [
+                {
+                  "text": "10th day of each month",
+                  "answer_start": 383
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c50_fpayment_cycle_q18",
+              "question": "What is the salary payment schedule?",
+              "answers": [
+                {
+                  "text": "10th day of each month",
+                  "answer_start": 383
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "LABOR CONTRACT\n\nParty A: Guangzhou Yunqi Technology Co., Ltd.\nParty B: Wang Wu\n\nArticle 1 Term of Contract\nThe contract term is 1 year, from January 1, 2024 to December 31, 2024.\n\nArticle 2 Position\nParty B's position: Product Manager, Work Location: Zhujiang New Town, Tianhe District, Guangzhou.\n\nArticle 3 Salary\nParty B's monthly salary is 18,000 RMB, paid on the 5th day of each month.\n\nArticle 5 Dispute Resolution\nSubmit to Guangzhou Arbitration Commission for arbitration.",
+          "qas": [
+            {
+              "id": "c51_fparty_a_q19",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Guangzhou Yunqi Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fparty_a_q20",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Guangzhou Yunqi Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fparty_a_q21",
+              "question": "Which company signs this agreement as employer?",
+              "answers": [
+                {
+                  "text": "Guangzhou Yunqi Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fparty_b_q22",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Wang Wu",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fparty_b_q23",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Wang Wu",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fparty_b_q24",
+              "question": "Who signs as the employee in this agreement?",
+              "answers": [
+                {
+                  "text": "Wang Wu",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fjob_title_q25",
+              "question": "What is the job title of the employee?",
+              "answers": [
+                {
+                  "text": "Product Manager",
+                  "answer_start": 219
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fjob_title_q26",
+              "question": "What position does the employee hold?",
+              "answers": [
+                {
+                  "text": "Product Manager",
+                  "answer_start": 219
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fjob_title_q27",
+              "question": "What role is assigned to Party B?",
+              "answers": [
+                {
+                  "text": "Product Manager",
+                  "answer_start": 219
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fwork_location_q28",
+              "question": "Where is the workplace located?",
+              "answers": [
+                {
+                  "text": "Zhujiang New Town, Tianhe District, Guangzhou",
+                  "answer_start": 251
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fwork_location_q29",
+              "question": "What is the working location of the employee?",
+              "answers": [
+                {
+                  "text": "Zhujiang New Town, Tianhe District, Guangzhou",
+                  "answer_start": 251
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fwork_location_q30",
+              "question": "Where will Party B perform their job duties?",
+              "answers": [
+                {
+                  "text": "Zhujiang New Town, Tianhe District, Guangzhou",
+                  "answer_start": 251
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fpayment_cycle_q34",
+              "question": "On which day is the salary paid?",
+              "answers": [
+                {
+                  "text": "5th day of each month",
+                  "answer_start": 368
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fpayment_cycle_q35",
+              "question": "When is the salary payment date?",
+              "answers": [
+                {
+                  "text": "5th day of each month",
+                  "answer_start": 368
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c51_fpayment_cycle_q36",
+              "question": "What is the salary payment schedule?",
+              "answers": [
+                {
+                  "text": "5th day of each month",
+                  "answer_start": 368
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "LABOR CONTRACT\n\nParty A: Shenzhen Zhilian Digital Technology Co., Ltd.\nParty B: Zhao Liu\n\nArticle 1 Term of Contract\nThe contract term is 4 years, from May 1, 2024 to April 30, 2028. Probation period: 6 months, from May 1, 2024 to October 31, 2024.\n\nArticle 2 Position\nParty B's position: Frontend Development Engineer, Work Location: South District, Science Park, Nanshan District, Shenzhen.\n\nArticle 3 Salary\nParty B's monthly salary is 25,000 RMB, paid on the 20th day of each month. Annual bonus: 3 months' salary, adjusted based on performance.\n\nArticle 4 Breach Liability\nIf Party B resigns without permission, Party B shall pay 20% of annual salary as liquidated damages. If Party A terminates the contract without cause, Party A shall pay 6 months' salary as compensation.\n\nArticle 5 Dispute Resolution\nIf negotiation fails, submit to Shenzhen International Arbitration Court for arbitration.",
+          "qas": [
+            {
+              "id": "c52_fparty_a_q37",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Shenzhen Zhilian Digital Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fparty_a_q38",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Shenzhen Zhilian Digital Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fparty_a_q39",
+              "question": "Which company acts as the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Shenzhen Zhilian Digital Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fparty_b_q40",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Zhao Liu",
+                  "answer_start": 80
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fparty_b_q41",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Zhao Liu",
+                  "answer_start": 80
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fparty_b_q42",
+              "question": "Who is the employee signing this labor contract?",
+              "answers": [
+                {
+                  "text": "Zhao Liu",
+                  "answer_start": 80
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fjob_title_q43",
+              "question": "What is the job title of Party B?",
+              "answers": [
+                {
+                  "text": "Frontend Development Engineer",
+                  "answer_start": 289
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fjob_title_q44",
+              "question": "What position is assigned to the employee in the contract?",
+              "answers": [
+                {
+                  "text": "Frontend Development Engineer",
+                  "answer_start": 289
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fjob_title_q45",
+              "question": "What role does the employee take in the company?",
+              "answers": [
+                {
+                  "text": "Frontend Development Engineer",
+                  "answer_start": 289
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fwork_location_q46",
+              "question": "Where is the employee's workplace located?",
+              "answers": [
+                {
+                  "text": "South District, Science Park, Nanshan District, Shenzhen",
+                  "answer_start": 335
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fwork_location_q47",
+              "question": "What is the working address of Party B?",
+              "answers": [
+                {
+                  "text": "South District, Science Park, Nanshan District, Shenzhen",
+                  "answer_start": 335
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fwork_location_q48",
+              "question": "In which area does the employee perform their work duties?",
+              "answers": [
+                {
+                  "text": "South District, Science Park, Nanshan District, Shenzhen",
+                  "answer_start": 335
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fpayment_cycle_q52",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "20th day of each month",
+                  "answer_start": 463
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fpayment_cycle_q53",
+              "question": "What is the salary payment date specified in the contract?",
+              "answers": [
+                {
+                  "text": "20th day of each month",
+                  "answer_start": 463
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c52_fpayment_cycle_q54",
+              "question": "How frequently and when is the salary disbursed?",
+              "answers": [
+                {
+                  "text": "20th day of each month",
+                  "answer_start": 463
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "EMPLOYMENT CONTRACT  This contract is made on 1st August 2024 between:  Employer: GlobalTech Solutions Inc., registered at 789 Silicon Valley Drive, San Francisco, CA 94107, USA (\"Party A\")  Employee: Emily Davis, residing at 456 Oak Avenue, San Francisco, CA 94105, USA (\"Party B\")  \nArticle 1 Position  Party B is employed as a Machine Learning Engineer, reporting to the Director of AI Department.  \nArticle 2 Contract Term  The contract shall be valid for 3 years, commencing on 1st August 2024 and ending on 31st July 2027. The probation period is 4 months (1st August 2024 to 30th November 2024).  \nArticle 3 Work Location  Party B's primary workplace is 789 Silicon Valley Drive, San Francisco, CA 94107. Remote work is allowed 2 days per week with prior approval.  \nArticle 4 Remuneration  Party B's monthly salary is USD 12,000 (pre-tax), paid on the 15th of each month via bank transfer. Annual bonus is equivalent to 4 months' salary, subject to company performance.  \nArticle 5 Breach of Contract  If Party B resigns without 60 days' written notice, they shall pay liquidated damages of USD 10,000. If Party A terminates the contract without cause, they shall pay severance pay of 8 months' salary.  \nArticle 6 Dispute Resolution  Any dispute shall be submitted to the American Arbitration Association (AAA) for arbitration in accordance with its rules.",
+          "qas": [
+            {
+              "id": "c53_fparty_a_q55",
+              "question": "What is the full name of the employer company?",
+              "answers": [
+                {
+                  "text": "GlobalTech Solutions Inc.",
+                  "answer_start": 82
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fparty_a_q56",
+              "question": "Who is identified as Party A (employer) in this contract?",
+              "answers": [
+                {
+                  "text": "GlobalTech Solutions Inc.",
+                  "answer_start": 82
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fparty_a_q57",
+              "question": "Which entity acts as the employer in this employment agreement?",
+              "answers": [
+                {
+                  "text": "GlobalTech Solutions Inc.",
+                  "answer_start": 82
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fparty_b_q58",
+              "question": "What is the full name of the employee (Party B)?",
+              "answers": [
+                {
+                  "text": "Emily Davis",
+                  "answer_start": 201
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fparty_b_q59",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "Emily Davis",
+                  "answer_start": 201
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fparty_b_q60",
+              "question": "What is the name of Party B in this employment agreement?",
+              "answers": [
+                {
+                  "text": "Emily Davis",
+                  "answer_start": 201
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fjob_title_q61",
+              "question": "What job title is assigned to Party B?",
+              "answers": [
+                {
+                  "text": "Machine Learning Engineer",
+                  "answer_start": 330
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fjob_title_q62",
+              "question": "What position does the employee hold in the company?",
+              "answers": [
+                {
+                  "text": "Machine Learning Engineer",
+                  "answer_start": 330
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fjob_title_q63",
+              "question": "What role is the employee hired for in this contract?",
+              "answers": [
+                {
+                  "text": "Machine Learning Engineer",
+                  "answer_start": 330
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fwork_location_q64",
+              "question": "What is the primary workplace address of the employee?",
+              "answers": [
+                {
+                  "text": "789 Silicon Valley Drive, San Francisco, CA 94107",
+                  "answer_start": 661
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fwork_location_q65",
+              "question": "Where is Party B required to perform their work duties?",
+              "answers": [
+                {
+                  "text": "789 Silicon Valley Drive, San Francisco, CA 94107",
+                  "answer_start": 661
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fwork_location_q66",
+              "question": "What is the official work address stated in the contract?",
+              "answers": [
+                {
+                  "text": "789 Silicon Valley Drive, San Francisco, CA 94107",
+                  "answer_start": 661
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fsalary_amount_q67",
+              "question": "What is the monthly salary amount for the employee (including currency)?",
+              "answers": [
+                {
+                  "text": "USD 12,000",
+                  "answer_start": 826
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fsalary_amount_q68",
+              "question": "What is the pre-tax monthly compensation for Party B?",
+              "answers": [
+                {
+                  "text": "USD 12,000",
+                  "answer_start": 826
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fsalary_amount_q69",
+              "question": "How much is the base monthly salary specified in the contract?",
+              "answers": [
+                {
+                  "text": "USD 12,000",
+                  "answer_start": 826
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fpayment_cycle_q70",
+              "question": "On which day of the month is the salary paid to the employee?",
+              "answers": [
+                {
+                  "text": "15th of each month",
+                  "answer_start": 860
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fpayment_cycle_q71",
+              "question": "What is the salary payment schedule in this contract?",
+              "answers": [
+                {
+                  "text": "15th of each month",
+                  "answer_start": 860
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c53_fpayment_cycle_q72",
+              "question": "How often and when is the employee's salary disbursed?",
+              "answers": [
+                {
+                  "text": "15th of each month",
+                  "answer_start": 860
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "LABOR CONTRACT\n\nParty A: Chengdu Tianfu Software Technology Co., Ltd.\nParty B: Zhou Ba\n\nArticle 1 Term of Contract\nThis is an open-ended contract effective from March 1, 2025. Probation period: 3 months, from March 1, 2025 to May 31, 2025.\n\nArticle 2 Position\nParty B's position: UI/UX Designer, Work Location: Zone C, Tianfu Software Park, High-tech Zone, Chengdu.\n\nArticle 3 Salary\nParty B's monthly salary is RMB 22,000, paid on the last working day of each month. 13-month salary is provided as an annual bonus.\n\nArticle 4 Breach Liability\nIf Party B resigns without consent, Party B shall pay liquidated damages equal to 3 months' salary.\n\nArticle 5 Dispute Resolution\nAny dispute arising from this contract shall be resolved through negotiation; if negotiation fails, either party may apply for arbitration to the Chengdu Arbitration Commission.",
+          "qas": [
+            {
+              "id": "c54_fparty_a_q73",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Chengdu Tianfu Software Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fparty_a_q74",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Chengdu Tianfu Software Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fparty_a_q75",
+              "question": "Which company acts as the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Chengdu Tianfu Software Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fparty_b_q76",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Zhou Ba",
+                  "answer_start": 79
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fparty_b_q77",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Zhou Ba",
+                  "answer_start": 79
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fparty_b_q78",
+              "question": "Who is the employee signing this labor contract?",
+              "answers": [
+                {
+                  "text": "Zhou Ba",
+                  "answer_start": 79
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fjob_title_q79",
+              "question": "What is the job title of Party B?",
+              "answers": [
+                {
+                  "text": "UI/UX Designer",
+                  "answer_start": 280
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fjob_title_q80",
+              "question": "What position is assigned to the employee in the contract?",
+              "answers": [
+                {
+                  "text": "UI/UX Designer",
+                  "answer_start": 280
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fjob_title_q81",
+              "question": "What role does the employee take in the company?",
+              "answers": [
+                {
+                  "text": "UI/UX Designer",
+                  "answer_start": 280
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fwork_location_q82",
+              "question": "Where is the employee's workplace located?",
+              "answers": [
+                {
+                  "text": "Zone C, Tianfu Software Park, High-tech Zone, Chengdu",
+                  "answer_start": 311
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fwork_location_q83",
+              "question": "What is the working address of Party B?",
+              "answers": [
+                {
+                  "text": "Zone C, Tianfu Software Park, High-tech Zone, Chengdu",
+                  "answer_start": 311
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c54_fwork_location_q84",
+              "question": "In which area does the employee perform their work duties?",
+              "answers": [
+                {
+                  "text": "Zone C, Tianfu Software Park, High-tech Zone, Chengdu",
+                  "answer_start": 311
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "Labor Contract\n\nParty A: Beijing Nova Tech Co., Ltd.\nParty B: Chen Wei\n\nArticle 1 Contract Term\nThe contract term is 3 years, commencing on January 1, 2025 and ending on December 31, 2027. The probation period is 2 months.\n\nArticle 2 Job Position\nParty B's position is Algorithm Engineer, and the workplace is at Zhongguancun Software Park, Haidian District, Beijing.\n\nArticle 3 Salary\nParty B's monthly salary is RMB 28,000, payable on the 10th of each month.\n\nArticle 4 Liability for Breach\nIf Party B resigns within the contract term without cause, Party B shall pay Party A liquidated damages equal to one month's salary.\n\nArticle 5 Dispute Resolution\nDisputes shall be submitted to the Beijing Arbitration Commission.",
+          "qas": [
+            {
+              "id": "c55_fparty_a_q91",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Beijing Nova Tech Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fparty_a_q92",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Beijing Nova Tech Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fparty_a_q93",
+              "question": "Which company acts as the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Beijing Nova Tech Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fparty_b_q94",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Chen Wei",
+                  "answer_start": 62
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fparty_b_q95",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Chen Wei",
+                  "answer_start": 62
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fparty_b_q96",
+              "question": "Who is the employee signing this labor contract?",
+              "answers": [
+                {
+                  "text": "Chen Wei",
+                  "answer_start": 62
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fjob_title_q97",
+              "question": "What is the job title of Party B?",
+              "answers": [
+                {
+                  "text": "Algorithm Engineer",
+                  "answer_start": 269
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fjob_title_q98",
+              "question": "What position is assigned to the employee in the contract?",
+              "answers": [
+                {
+                  "text": "Algorithm Engineer",
+                  "answer_start": 269
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fjob_title_q99",
+              "question": "What role does the employee take in the company?",
+              "answers": [
+                {
+                  "text": "Algorithm Engineer",
+                  "answer_start": 269
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fwork_location_q100",
+              "question": "Where is the employee's workplace located?",
+              "answers": [
+                {
+                  "text": "Zhongguancun Software Park, Haidian District, Beijing",
+                  "answer_start": 313
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fwork_location_q101",
+              "question": "What is the working address of Party B?",
+              "answers": [
+                {
+                  "text": "Zhongguancun Software Park, Haidian District, Beijing",
+                  "answer_start": 313
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fwork_location_q102",
+              "question": "In which area does the employee perform their work duties?",
+              "answers": [
+                {
+                  "text": "Zhongguancun Software Park, Haidian District, Beijing",
+                  "answer_start": 313
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fsalary_amount_q103",
+              "question": "What is the monthly salary of the employee?",
+              "answers": [
+                {
+                  "text": "RMB 28,000",
+                  "answer_start": 414
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fsalary_amount_q104",
+              "question": "What is the exact base salary amount stated in the contract?",
+              "answers": [
+                {
+                  "text": "RMB 28,000",
+                  "answer_start": 414
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fsalary_amount_q105",
+              "question": "How much is the monthly compensation for Party B?",
+              "answers": [
+                {
+                  "text": "RMB 28,000",
+                  "answer_start": 414
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fpayment_cycle_q106",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "10th of each month",
+                  "answer_start": 441
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fpayment_cycle_q107",
+              "question": "What is the salary payment date specified in the contract?",
+              "answers": [
+                {
+                  "text": "10th of each month",
+                  "answer_start": 441
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c55_fpayment_cycle_q108",
+              "question": "How frequently and when is the salary disbursed?",
+              "answers": [
+                {
+                  "text": "10th of each month",
+                  "answer_start": 441
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "EMPLOYMENT AGREEMENT\n\nThis Employment Agreement is entered into as of 15 May 2025, by and between:\n\nEmployer: Apex Innovations Ltd., a company registered in England and Wales under number 12345678, with its registered office at 45 Tech Avenue, London, EC1V 2NX (\"the Company\")\n\nEmployee: Laura Smith, residing at 22 Green Lane, London, N5 1AB (\"the Employee\")\n\n1. Position and Duties\nThe Employee shall serve as a Senior Marketing Manager and shall perform such duties as are customarily associated with this position.\n\n2. Salary and Payment\nThe Employee's annual salary is GBP 65,000, paid in equal monthly instalments on the 28th of each month directly into the Employee's bank account.\n\n3. Place of Work\nThe Employee's primary work location is the Company's office at 45 Tech Avenue, London, EC1V 2NX. Occasional remote work is permitted subject to line manager approval.\n\n4. Contract Duration\nThis Agreement shall commence on 1 June 2025 and shall continue until terminated by either party in accordance with Clause 7.\n\n5. Probation Period\nThe Employee shall serve a probationary period of 6 months from the commencement date.\n\n6. Confidentiality\nThe Employee agrees not to disclose any confidential information belonging to the Company.\n\n7. Termination\nEither party may terminate this Agreement by providing 3 months' written notice.\n\n8. Governing Law\nThis Agreement is governed by the laws of England and Wales.",
+          "qas": [
+            {
+              "id": "c56_fparty_a_q109",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Apex Innovations Ltd",
+                  "answer_start": 110
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fparty_a_q110",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Apex Innovations Ltd",
+                  "answer_start": 110
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fparty_a_q111",
+              "question": "Which company acts as the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Apex Innovations Ltd",
+                  "answer_start": 110
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fparty_b_q112",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Laura Smith",
+                  "answer_start": 288
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fparty_b_q113",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Laura Smith",
+                  "answer_start": 288
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fparty_b_q114",
+              "question": "Who is the employee signing this labor contract?",
+              "answers": [
+                {
+                  "text": "Laura Smith",
+                  "answer_start": 288
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fjob_title_q115",
+              "question": "What is the job title of Party B?",
+              "answers": [
+                {
+                  "text": "Senior Marketing Manager",
+                  "answer_start": 414
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fjob_title_q116",
+              "question": "What position is assigned to the employee in the contract?",
+              "answers": [
+                {
+                  "text": "Senior Marketing Manager",
+                  "answer_start": 414
+                }
+              ],
+              "is_continue": false
+            },
+            {
+              "id": "c56_fjob_title_q117",
+              "question": "What role does the employee take in the company?",
+              "answers": [
+                {
+                  "text": "Senior Marketing Manager",
+                  "answer_start": 414
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fwork_location_q118",
+              "question": "Where is the employee's workplace located?",
+              "answers": [
+                {
+                  "text": "45 Tech Avenue, London, EC1V 2NX",
+                  "answer_start": 228
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fwork_location_q119",
+              "question": "What is the working address of Party B?",
+              "answers": [
+                {
+                  "text": "45 Tech Avenue, London, EC1V 2NX",
+                  "answer_start": 228
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fwork_location_q120",
+              "question": "In which area does the employee perform their work duties?",
+              "answers": [
+                {
+                  "text": "45 Tech Avenue, London, EC1V 2NX",
+                  "answer_start": 228
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fsalary_amount_q121",
+              "question": "What is the monthly salary of the employee?",
+              "answers": [
+                {
+                  "text": "GBP 65,000",
+                  "answer_start": 574
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fsalary_amount_q122",
+              "question": "What is the exact base salary amount stated in the contract?",
+              "answers": [
+                {
+                  "text": "GBP 65,000",
+                  "answer_start": 574
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fsalary_amount_q123",
+              "question": "How much is the monthly compensation for Party B?",
+              "answers": [
+                {
+                  "text": "GBP 65,000",
+                  "answer_start": 574
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fpayment_cycle_q124",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "28th of each month",
+                  "answer_start": 627
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fpayment_cycle_q125",
+              "question": "What is the salary payment date specified in the contract?",
+              "answers": [
+                {
+                  "text": "28th of each month",
+                  "answer_start": 627
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c56_fpayment_cycle_q126",
+              "question": "How frequently and when is the salary disbursed?",
+              "answers": [
+                {
+                  "text": "28th of each month",
+                  "answer_start": 627
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "LABOR CONTRACT\n\nParty A: Xi'an Chuangxiang Interactive Media Co., Ltd.\nParty B: Wu Jiu\n\nArticle 1 Term of Contract\nThe contract term is 1 year, from October 8, 2024 to October 7, 2025. Probation period: 1 month.\n\nArticle 2 Position\nParty B's position: Video Editor, Work Location: No. 3 Tangyan Road, High-tech Zone, Xi'an.\n\nArticle 3 Working Hours\nParty B implements standard working hours: 8 hours per day, 40 hours per week.\n\nArticle 4 Salary\nParty B's probation salary: RMB 8,000; after probation: RMB 12,000. Salary is paid on the 5th day of each month.\n\nArticle 5 Breach Liability\nAfter probation, Party B must give 30 days' written notice before resignation; otherwise, the current month's salary shall be deducted as liquidated damages.\n\nArticle 6 Dispute Resolution\nAny dispute during performance shall be submitted to Xi'an Labor and Personnel Dispute Arbitration Commission for arbitration.",
+          "qas": [
+            {
+              "id": "c57_fparty_a_q127",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Xi'an Chuangxiang Interactive Media Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fparty_a_q128",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Xi'an Chuangxiang Interactive Media Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fparty_a_q129",
+              "question": "Which company acts as the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Xi'an Chuangxiang Interactive Media Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fparty_b_q130",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Wu Jiu",
+                  "answer_start": 80
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fparty_b_q131",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Wu Jiu",
+                  "answer_start": 80
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fparty_b_q132",
+              "question": "Who is the employee signing this labor contract?",
+              "answers": [
+                {
+                  "text": "Wu Jiu",
+                  "answer_start": 80
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fjob_title_q133",
+              "question": "What is the job title of Party B?",
+              "answers": [
+                {
+                  "text": "Video Editor",
+                  "answer_start": 252
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fjob_title_q134",
+              "question": "What position is assigned to the employee in the contract?",
+              "answers": [
+                {
+                  "text": "Video Editor",
+                  "answer_start": 252
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fjob_title_q135",
+              "question": "What role does the employee take in the company?",
+              "answers": [
+                {
+                  "text": "Video Editor",
+                  "answer_start": 252
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fwork_location_q136",
+              "question": "Where is the employee's workplace located?",
+              "answers": [
+                {
+                  "text": "No. 3 Tangyan Road, High-tech Zone, Xi'an",
+                  "answer_start": 281
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fwork_location_q137",
+              "question": "What is the working address of Party B?",
+              "answers": [
+                {
+                  "text": "No. 3 Tangyan Road, High-tech Zone, Xi'an",
+                  "answer_start": 281
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fwork_location_q138",
+              "question": "In which area does the employee perform their work duties?",
+              "answers": [
+                {
+                  "text": "No. 3 Tangyan Road, High-tech Zone, Xi'an",
+                  "answer_start": 281
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fpayment_cycle_q142",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "5th day of each month",
+                  "answer_start": 536
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fpayment_cycle_q143",
+              "question": "What is the salary payment date specified in the contract?",
+              "answers": [
+                {
+                  "text": "5th day of each month",
+                  "answer_start": 536
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c57_fpayment_cycle_q144",
+              "question": "How frequently and when is the salary disbursed?",
+              "answers": [
+                {
+                  "text": "5th day of each month",
+                  "answer_start": 536
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "SERVICE AGREEMENT\n\nThis Service Agreement is made on 1 April 2025 between:\n\nService Provider: Quantum Dynamics Pty Ltd (ABN 99 888 777 666) of Level 12, 200 George Street, Sydney NSW 2000, Australia (\"the Company\")\n\nService Provider (Contractor): James Walker of 7 Beach Road, Bondi Beach NSW 2026 (\"the Contractor\")\n\n1. Services\nThe Contractor shall provide services as a Cybersecurity Consultant, performing security audits and risk assessments as directed by the Company.\n\n2. Fees and Payment\nThe Company shall pay the Contractor a daily rate of AUD 1,200. Invoices shall be submitted monthly and paid within 14 days of receipt.\n\n3. Place of Work\nThe Contractor shall perform services primarily at the Company's office at Level 12, 200 George Street, Sydney, and remotely as agreed.\n\n4. Term and Termination\nThis Agreement commences on 1 April 2025 and continues until terminated by either party with 30 days' written notice.\n\n5. Confidentiality\nThe Contractor agrees to maintain the confidentiality of all Company information.\n\n6. Governing Law\nThis Agreement is governed by the laws of New South Wales.",
+          "qas": [
+            {
+              "id": "c58_fparty_a_q145",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Quantum Dynamics Pty Ltd",
+                  "answer_start": 94
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fparty_a_q146",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Quantum Dynamics Pty Ltd",
+                  "answer_start": 94
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fparty_a_q147",
+              "question": "Which company acts as the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Quantum Dynamics Pty Ltd",
+                  "answer_start": 94
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fparty_b_q148",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "James Walker",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fparty_b_q149",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "James Walker",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fparty_b_q150",
+              "question": "Who is the employee signing this labor contract?",
+              "answers": [
+                {
+                  "text": "James Walker",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fjob_title_q151",
+              "question": "What is the job title of Party B?",
+              "answers": [
+                {
+                  "text": "Cybersecurity Consultant",
+                  "answer_start": 373
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fjob_title_q152",
+              "question": "What position is assigned to the employee in the contract?",
+              "answers": [
+                {
+                  "text": "Cybersecurity Consultant",
+                  "answer_start": 373
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fjob_title_q153",
+              "question": "What role does the employee take in the company?",
+              "answers": [
+                {
+                  "text": "Cybersecurity Consultant",
+                  "answer_start": 373
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fwork_location_q154",
+              "question": "Where is the employee's workplace located?",
+              "answers": [
+                {
+                  "text": "Level 12, 200 George Street, Sydney",
+                  "answer_start": 143
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fwork_location_q155",
+              "question": "What is the working address of Party B?",
+              "answers": [
+                {
+                  "text": "Level 12, 200 George Street, Sydney",
+                  "answer_start": 143
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fwork_location_q156",
+              "question": "In which area does the employee perform their work duties?",
+              "answers": [
+                {
+                  "text": "Level 12, 200 George Street, Sydney",
+                  "answer_start": 143
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fsalary_amount_q157",
+              "question": "What is the monthly salary of the employee?",
+              "answers": [
+                {
+                  "text": "AUD 1,200",
+                  "answer_start": 549
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fsalary_amount_q158",
+              "question": "What is the exact base salary amount stated in the contract?",
+              "answers": [
+                {
+                  "text": "AUD 1,200",
+                  "answer_start": 549
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fsalary_amount_q159",
+              "question": "How much is the monthly compensation for Party B?",
+              "answers": [
+                {
+                  "text": "AUD 1,200",
+                  "answer_start": 549
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fpayment_cycle_q160",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 588
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fpayment_cycle_q161",
+              "question": "What is the salary payment date specified in the contract?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 588
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c58_fpayment_cycle_q162",
+              "question": "How frequently and when is the salary disbursed?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 588
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "LABOR CONTRACT\n\nParty A: Hangzhou Yunqi Digital Technology Co., Ltd.\nParty B: Sun Qi\n\nArticle 1 Term of Contract\nThe contract term is 2 years, from May 1, 2025 to April 30, 2027. Probation period: 2 months.\n\nArticle 2 Position\nParty B's position: Backend Development Engineer, Work Location: No. 456 Wensan Road, Xihu District, Hangzhou.\n\nArticle 3 Salary\nParty B's monthly salary is RMB 26,000, paid on the 15th day of each month.\n\nArticle 4 Breach Liability\nIf Party B violates the non-compete agreement, Party B shall pay liquidated damages of RMB 500,000.\n\nArticle 5 Dispute Resolution\nSubmit to Hangzhou Arbitration Commission for arbitration.",
+          "qas": [
+            {
+              "id": "c59_fparty_a_q163",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Hangzhou Yunqi Digital Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fparty_a_q164",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Hangzhou Yunqi Digital Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fparty_a_q165",
+              "question": "Which company acts as the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Hangzhou Yunqi Digital Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fparty_b_q166",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Sun Qi",
+                  "answer_start": 78
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fparty_b_q167",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Sun Qi",
+                  "answer_start": 78
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fparty_b_q168",
+              "question": "Who is the employee signing this labor contract?",
+              "answers": [
+                {
+                  "text": "Sun Qi",
+                  "answer_start": 78
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fjob_title_q169",
+              "question": "What is the job title of Party B?",
+              "answers": [
+                {
+                  "text": "Backend Development Engineer",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fjob_title_q170",
+              "question": "What position is assigned to the employee in the contract?",
+              "answers": [
+                {
+                  "text": "Backend Development Engineer",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fjob_title_q171",
+              "question": "What role does the employee take in the company?",
+              "answers": [
+                {
+                  "text": "Backend Development Engineer",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fwork_location_q172",
+              "question": "Where is the employee's workplace located?",
+              "answers": [
+                {
+                  "text": "No. 456 Wensan Road, Xihu District, Hangzhou",
+                  "answer_start": 292
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fwork_location_q173",
+              "question": "What is the working address of Party B?",
+              "answers": [
+                {
+                  "text": "No. 456 Wensan Road, Xihu District, Hangzhou",
+                  "answer_start": 292
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fwork_location_q174",
+              "question": "In which area does the employee perform their work duties?",
+              "answers": [
+                {
+                  "text": "No. 456 Wensan Road, Xihu District, Hangzhou",
+                  "answer_start": 292
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fpayment_cycle_q178",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "15th day of each month",
+                  "answer_start": 408
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fpayment_cycle_q179",
+              "question": "What is the salary payment date specified in the contract?",
+              "answers": [
+                {
+                  "text": "15th day of each month",
+                  "answer_start": 408
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c59_fpayment_cycle_q180",
+              "question": "How frequently and when is the salary disbursed?",
+              "answers": [
+                {
+                  "text": "15th day of each month",
+                  "answer_start": 408
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context": "EMPLOYMENT CONTRACT\n\nParty A (Employer): Shanghai Xinghan Culture Communication Co., Ltd.\nParty B (Employee): Chen Shiyi\n\nPosition: International Marketing Director\nWork Location: Plaza 66, No. 1266 West Nanjing Road, Jing'an District, Shanghai\n\nSalary: Party B's monthly salary is RMB 45,000. Party A shall pay Party B's salary on the 10th of each month. Failure to pay may result in penalties.\n\nTerm: This contract is valid from 2025-06-01 to 2028-05-31.",
+      "qas": [
+        {
+          "id": "c60_fparty_a_q1",
+          "question": "What is the full name of the employer or company?",
+          "answers": [
+            {
+              "text": "Shanghai Xinghan Culture Communication Co., Ltd.",
+              "answer_start": 42
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fparty_a_q2",
+          "question": "Who is Party A in this contract?",
+          "answers": [
+            {
+              "text": "Shanghai Xinghan Culture Communication Co., Ltd.",
+              "answer_start": 42
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fparty_a_q3",
+          "question": "Which company acts as the employer in this agreement?",
+          "answers": [
+            {
+              "text": "Shanghai Xinghan Culture Communication Co., Ltd.",
+              "answer_start": 42
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fparty_b_q4",
+          "question": "What is the full name of the employee?",
+          "answers": [
+            {
+              "text": "Chen Shiyi",
+              "answer_start": 75
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fparty_b_q5",
+          "question": "Who is Party B in this contract?",
+          "answers": [
+            {
+              "text": "Chen Shiyi",
+              "answer_start": 75
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fparty_b_q6",
+          "question": "Who is the employee signing this labor contract?",
+          "answers": [
+            {
+              "text": "Chen Shiyi",
+              "answer_start": 75
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fjob_title_q7",
+          "question": "What is the job title of Party B?",
+          "answers": [
+            {
+              "text": "International Marketing Director",
+              "answer_start": 94
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fjob_title_q8",
+          "question": "What position is assigned to the employee in the contract?",
+          "answers": [
+            {
+              "text": "International Marketing Director",
+              "answer_start": 94
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fjob_title_q9",
+          "question": "What role does the employee take in the company?",
+          "answers": [
+            {
+              "text": "International Marketing Director",
+              "answer_start": 94
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fwork_location_q10",
+          "question": "Where is the employee's workplace located?",
+          "answers": [
+            {
+              "text": "Plaza 66, No. 1266 West Nanjing Road, Jing'an District, Shanghai",
+              "answer_start": 113
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fwork_location_q11",
+          "question": "What is the working address of Party B?",
+          "answers": [
+            {
+              "text": "Plaza 66, No. 1266 West Nanjing Road, Jing'an District, Shanghai",
+              "answer_start": 113
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fwork_location_q12",
+          "question": "In which area does the employee perform their work duties?",
+          "answers": [
+            {
+              "text": "Plaza 66, No. 1266 West Nanjing Road, Jing'an District, Shanghai",
+              "answer_start": 113
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fsalary_amount_q13",
+          "question": "What is the monthly salary of the employee?",
+          "answers": [
+            {
+              "text": "RMB 45,000",
+              "answer_start": 208
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fsalary_amount_q14",
+          "question": "What is the exact base salary amount stated in the contract?",
+          "answers": [
+            {
+              "text": "RMB 45,000",
+              "answer_start": 208
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fsalary_amount_q15",
+          "question": "How much is the monthly compensation for Party B?",
+          "answers": [
+            {
+              "text": "RMB 45,000",
+              "answer_start": 208
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fpayment_cycle_q16",
+          "question": "On which day of the month is the salary paid?",
+          "answers": [
+            {
+              "text": "10th of each month",
+              "answer_start": 246
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fpayment_cycle_q17",
+          "question": "What is the salary payment date specified in the contract?",
+          "answers": [
+            {
+              "text": "10th of each month",
+              "answer_start": 246
+            }
+          ],
+          "is_impossible": false
+        },
+        {
+          "id": "c60_fpayment_cycle_q18",
+          "question": "How frequently and when is the salary disbursed?",
+          "answers": [
+            {
+              "text": "10th of each month",
+              "answer_start": 246
+            }
+          ],
+          "is_impossible": false
+        }
+      ]
+    },
+    {
+      "title": "ContractGuard NER fine-tuning",
+      "paragraphs": [
+        {
+          "context": "LABOR CONTRACT\n\nParty A: Beijing Zhiyuan Technology Co., Ltd.\nParty B: Zhao Liu\n\nArticle 1 Term of Contract\nThe contract term is 2 years, from June 1, 2023 to May 31, 2025.\n\nArticle 2 Position\nParty B's position: Software Engineer, Work Location: Zhongguancun Software Park, Haidian District, Beijing.\n\nArticle 3 Salary\nParty B's monthly salary is 15000 RMB, paid on the 15th day of each month.\n\nArticle 5 Dispute Resolution\nSubmit to Beijing Arbitration Commission for arbitration.",
+          "qas": [
+            {
+              "id": "c60_fparty_a_q181",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Beijing Zhiyuan Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fparty_a_q182",
+              "question": "Who is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Beijing Zhiyuan Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fparty_a_q183",
+              "question": "Which company signs this agreement as employer?",
+              "answers": [
+                {
+                  "text": "Beijing Zhiyuan Technology Co., Ltd.",
+                  "answer_start": 25
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fparty_b_q184",
+              "question": "What is the full name of the employee?",
+              "answers": [
+                {
+                  "text": "Zhao Liu",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fparty_b_q185",
+              "question": "Who is Party B in this contract?",
+              "answers": [
+                {
+                  "text": "Zhao Liu",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fparty_b_q186",
+              "question": "Who signs as the employee in this agreement?",
+              "answers": [
+                {
+                  "text": "Zhao Liu",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fjob_title_q187",
+              "question": "What is the job title of the employee?",
+              "answers": [
+                {
+                  "text": "Software Engineer",
+                  "answer_start": 213
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fjob_title_q188",
+              "question": "What position does the employee hold?",
+              "answers": [
+                {
+                  "text": "Software Engineer",
+                  "answer_start": 213
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fjob_title_q189",
+              "question": "What role is assigned to Party B?",
+              "answers": [
+                {
+                  "text": "Software Engineer",
+                  "answer_start": 213
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fwork_location_q190",
+              "question": "Where is the workplace located?",
+              "answers": [
+                {
+                  "text": "Zhongguancun Software Park, Haidian District, Beijing",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fwork_location_q191",
+              "question": "What is the working location of the employee?",
+              "answers": [
+                {
+                  "text": "Zhongguancun Software Park, Haidian District, Beijing",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fwork_location_q192",
+              "question": "Where will Party B perform their job duties?",
+              "answers": [
+                {
+                  "text": "Zhongguancun Software Park, Haidian District, Beijing",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fsalary_amount_q193",
+              "question": "What is the salary amount stated in the contract?",
+              "answers": [
+                {
+                  "text": "15000",
+                  "answer_start": 348
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fsalary_amount_q194",
+              "question": "How much does the employee earn per month?",
+              "answers": [
+                {
+                  "text": "15000",
+                  "answer_start": 348
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fsalary_amount_q195",
+              "question": "What is the base monthly salary?",
+              "answers": [
+                {
+                  "text": "15000",
+                  "answer_start": 348
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fpayment_cycle_q196",
+              "question": "On which day is the salary paid?",
+              "answers": [
+                {
+                  "text": "15th day of each month",
+                  "answer_start": 371
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fpayment_cycle_q197",
+              "question": "When is the salary payment date?",
+              "answers": [
+                {
+                  "text": "15th day of each month",
+                  "answer_start": 371
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c60_fpayment_cycle_q198",
+              "question": "What is the salary payment schedule?",
+              "answers": [
+                {
+                  "text": "15th day of each month",
+                  "answer_start": 371
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

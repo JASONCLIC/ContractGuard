@@ -1,0 +1,13 @@
+{
+  "unilateral_exemption": 0,
+  "excessive_penalty": 1,
+  "vague_termination": 2,
+  "probation_period_risk": 3,
+  "wage_payment_unclear": 4,
+  "overtime_leave_unclear": 5,
+  "non_compete": 6,
+  "ip_ownership_assignment": 7,
+  "confidentiality": 8,
+  "dispute_resolution": 9,
+  "no_risk": 10
+}

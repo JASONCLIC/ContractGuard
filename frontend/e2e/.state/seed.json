@@ -1,0 +1,17 @@
+{
+  "user": {
+    "email": "e2e.user@test.local",
+    "password": "Strong#1234"
+  },
+  "admin": {
+    "email": "admin@contractguard.local",
+    "password": "Admin@123456"
+  },
+  "contract": {
+    "id": 1
+  },
+  "share": {
+    "token": "ZXp71ZDrjKhVD5Jrc_L7XPuSAO2AnTIC",
+    "password": "Share#1234"
+  }
+}

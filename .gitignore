@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+backend/.env
+frontend/node_modules/
+frontend/dist/
+backend/migrations/
+
+# OS / editor artifacts
+.DS_Store
+**/.DS_Store
+
+# Test / coverage artifacts
+backend/.coverage
+frontend/coverage/
+frontend/test-results/
+
+# Accidental empty runtime folder (currently only .DS_Store inside)
+backend/app/tasks/
+
+
+# Local workspace files
+.idea/
+.cursor/
+.env.*

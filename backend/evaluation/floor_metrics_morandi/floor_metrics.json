@@ -1,0 +1,13 @@
+{
+  "style": {
+    "language": "English",
+    "palette": "Morandi",
+    "font_weight": "bold"
+  },
+  "titles": {
+    "classifier_floor_bar.png": "Classifier Performance Metrics",
+    "classifier_floor_radar.png": "Classifier Performance Radar",
+    "balanced_vs_standard_floor.png": "Standard vs Imbalance-Aware Metrics",
+    "ner_qa_floor_bar.png": "NER-QA Performance Metrics"
+  }
+}

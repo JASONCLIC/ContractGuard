@@ -1,0 +1,10 @@
+Binary Risk Detection (risk vs no_risk)
+Distribution: risk=373 (80.4%) | no_risk=91 (19.6%)
+────────────────────────────────────────
+Accuracy          : 0.9935
+Balanced Accuracy : 0.9877
+MCC               : 0.9794
+────────────────────────────────────────
+          Precision  Recall  F1
+risk       0.9947   0.9973  0.9960
+no_risk    0.9889   0.9780  0.9834

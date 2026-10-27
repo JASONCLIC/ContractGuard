@@ -1,0 +1,78 @@
+{
+  "title": "EMPLOYMENT AGREEMENT",
+  "description": "Click on clauses you think contain legal or fairness risks.",
+  "clauses": [
+    {
+      "id": 1,
+      "text": "Party A: Shanghai Yuanjing Information Technology Co., Ltd.",
+      "risk": false,
+      "hint": "Standard employer information."
+    },
+    {
+      "id": 2,
+      "text": "Party B: Li Si",
+      "risk": false,
+      "hint": "Employee identity is clearly stated."
+    },
+    {
+      "id": 3,
+      "text": "Contract term: 3 years (Mar 1, 2023 – Feb 28, 2026)",
+      "risk": false,
+      "hint": "Fixed-term contracts are common."
+    },
+    {
+      "id": 4,
+      "text": "Position: Data Analyst, Work location: Shanghai",
+      "risk": false,
+      "hint": "Basic job info is normal."
+    },
+    {
+      "id": 5,
+      "text": "Monthly salary: 20,000 RMB, paid on the 10th day of each month",
+      "risk": false,
+      "hint": "Payment cycle is reasonable."
+    },
+    {
+      "id": 6,
+      "text": "The employer may adjust the employee’s position at any time without consent.",
+      "risk": true,
+      "hint": "Unilateral job changes are risky."
+    },
+    {
+      "id": 7,
+      "text": "Overtime work is required but will not be compensated.",
+      "risk": true,
+      "hint": "Unpaid overtime is illegal in many jurisdictions."
+    },
+    {
+      "id": 8,
+      "text": "The employee must not resign within the first 2 years.",
+      "risk": true,
+      "hint": "Restricting resignation rights is problematic."
+    },
+    {
+      "id": 9,
+      "text": "Liquidated damages are set at three times the monthly salary.",
+      "risk": true,
+      "hint": "Excessive penalties may be unfair."
+    },
+    {
+      "id": 10,
+      "text": "All disputes shall be decided solely by the employer.",
+      "risk": true,
+      "hint": "No neutral dispute resolution."
+    },
+    {
+      "id": 11,
+      "text": "The employee must follow company policies and regulations.",
+      "risk": true,
+      "hint": "Standard compliance clause."
+    },
+    {
+      "id": 12,
+      "text": "This contract becomes effective upon signature by both parties.",
+      "risk": false,
+      "hint": "Normal legal requirement."
+    }
+  ]
+}

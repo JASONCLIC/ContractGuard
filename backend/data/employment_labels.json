@@ -1,0 +1,127 @@
+{
+  "risk_types": [
+    {
+      "id": 1,
+      "key": "unilateral_exemption",
+      "label": "Unilateral Exemption",
+      "risk_level": "high",
+      "description": "Clauses that exempt only the employer from liability while imposing obligations on the employee.",
+      "risk_explanation": "One-sided disclaimers that remove employer accountability are a major red flag and are often difficult to enforce."
+    },
+    {
+      "id": 2,
+      "key": "excessive_penalty",
+      "label": "Excessive Penalty / Liquidated Damages",
+      "risk_level": "medium",
+      "description": "Penalty or liquidated damages clauses that impose disproportionate financial obligations on the employee.",
+      "risk_explanation": "Penalty amounts significantly exceeding typical salary/training costs may be unenforceable but still create undue pressure."
+    },
+    {
+      "id": 3,
+      "key": "vague_termination",
+      "label": "Vague Termination Conditions",
+      "risk_level": "medium",
+      "description": "Termination provisions that are ambiguous, overly broad, or give the employer unchecked discretion.",
+      "risk_explanation": "Vague triggers (e.g., 'sole discretion' / 'deemed unsuitable') can enable arbitrary dismissal disputes."
+    },
+    {
+      "id": 4,
+      "key": "probation_period_risk",
+      "label": "Probation Period Risk",
+      "risk_level": "high",
+      "description": "Probation clauses that are unreasonably long or lack clear evaluation criteria.",
+      "risk_explanation": "Unreasonably broad probation terms can lead to underpayment or termination without objective criteria."
+    },
+    {
+      "id": 5,
+      "key": "wage_payment_unclear",
+      "label": "Wage / Payment Terms Unclear",
+      "risk_level": "high",
+      "description": "Salary, bonus, or payment schedule provisions that are vague, conditional, or subject to unilateral change.",
+      "risk_explanation": "Unclear wage formulas and payment timing create a high risk of underpayment or delayed payment."
+    },
+    {
+      "id": 6,
+      "key": "overtime_leave_unclear",
+      "label": "Overtime / Leave Policy Unclear",
+      "risk_level": "medium",
+      "description": "Work hour, overtime, or leave provisions that are ambiguous or disadvantageous to the employee.",
+      "risk_explanation": "Ambiguous overtime/leave terms can result in excessive unpaid overtime and reduced employee protections."
+    },
+    {
+      "id": 7,
+      "key": "non_compete",
+      "label": "Non-Compete Restriction",
+      "risk_level": "high",
+      "description": "Post-employment restrictions on working for competitors or starting competing businesses.",
+      "risk_explanation": "Overbroad non-compete clauses without adequate compensation may severely limit future employment options."
+    },
+    {
+      "id": 8,
+      "key": "ip_ownership_assignment",
+      "label": "IP Ownership Assignment",
+      "risk_level": "medium",
+      "description": "Provisions transferring intellectual property rights created by the employee to the employer.",
+      "risk_explanation": "Overly broad IP assignment clauses may claim ownership of work products beyond job duties."
+    },
+    {
+      "id": 9,
+      "key": "confidentiality",
+      "label": "Confidentiality / NDA",
+      "risk_level": "medium",
+      "description": "Obligations imposed on the employee to protect the employer's confidential information.",
+      "risk_explanation": "Overly broad or perpetual confidentiality clauses can restrict normal professional activities after employment."
+    },
+    {
+      "id": 10,
+      "key": "dispute_resolution",
+      "label": "Dispute Resolution",
+      "risk_level": "medium",
+      "description": "Mechanisms for resolving disputes between employer and employee.",
+      "risk_explanation": "Unfavorable or overly employer-controlled dispute resolution may disadvantage the employee."
+    }
+  ],
+  "missing_clause_types": [
+    {
+      "id": 101,
+      "key": "missing_dispute_resolution",
+      "label": "Missing: Dispute Resolution Mechanism",
+      "risk_level": "high",
+      "description": "No dispute resolution or labor arbitration process is specified.",
+      "risk_explanation": "Without a defined process, employees may not know how to seek legal remedies."
+    },
+    {
+      "id": 102,
+      "key": "missing_termination_process",
+      "label": "Missing: Termination Procedure",
+      "risk_level": "high",
+      "description": "No clear process or notice period for contract termination is defined.",
+      "risk_explanation": "Absence of termination procedures can enable sudden dismissal without proper compensation."
+    },
+    {
+      "id": 103,
+      "key": "missing_wage_details",
+      "label": "Missing: Wage / Compensation Details",
+      "risk_level": "high",
+      "description": "Salary amount, payment date, or calculation method is not clearly stated.",
+      "risk_explanation": "Vague or missing wage terms make it hard to claim unpaid wages."
+    },
+    {
+      "id": 104,
+      "key": "missing_work_hours",
+      "label": "Missing: Work Hours / Overtime Policy",
+      "risk_level": "medium",
+      "description": "Work schedule, overtime policy, or rest entitlements are not defined.",
+      "risk_explanation": "Without explicit terms, employees may be expected to work excessive hours without proper compensation."
+    },
+    {
+      "id": 105,
+      "key": "missing_data_privacy",
+      "label": "Missing: Data / Privacy Policy",
+      "risk_level": "medium",
+      "description": "No mention of how employee personal data will be collected, used, or retained.",
+      "risk_explanation": "Absence of data terms can increase the risk of unregulated data usage."
+    }
+  ]
+}
+

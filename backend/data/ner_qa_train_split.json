@@ -1,0 +1,1502 @@
+{
+  "version": "v1.0-contract",
+  "data": [
+    {
+      "title": "ContractGuard NER fine-tuning (train split)",
+      "paragraphs": [
+        {
+          "context": "劳动合同\n\n甲方：北京星辰科技有限公司\n乙方：张三\n\n第一条 合同期限\n合同期限为2年，自2024年7月1日起至2026年6月30日止。试用期为3个月。\n\n第二条 工作岗位\n乙方岗位：软件工程师，工作地点：北京市朝阳区望京SOHO。\n\n第三条 工作时间\n工作时间按需调整，服从公司安排。\n\n第四条 薪资待遇\n乙方工资为15000元/月，按月发放，每月15日支付上月薪资。\n\n第五条 违约责任\n违约金最高可达年薪的50%，超过月薪6倍。乙方提前离职须支付违约金。\n\n第六条 合同解除\n甲方有权随时解除本合同，无需提前通知。\n\n第七条 争议解决\n双方因履行本合同发生争议，应协商解决；协商不成的，提交北京仲裁委员会仲裁。",
+          "qas": [
+            {
+              "id": "c2_fjob_title_q1",
+              "question": "What specific position or role is the employee or intern hired for?",
+              "answers": [
+                {
+                  "text": "乙方岗位：软件工程师",
+                  "answer_start": 87
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fjob_title_q2",
+              "question": "What position does the employee serve as in this contract?",
+              "answers": [
+                {
+                  "text": "乙方岗位：软件工程师",
+                  "answer_start": 87
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fjob_title_q3",
+              "question": "What is the intern's or employee's job title?",
+              "answers": [
+                {
+                  "text": "乙方岗位：软件工程师",
+                  "answer_start": 87
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fwork_location_q4",
+              "question": "What is the address of the employee's workplace or office?",
+              "answers": [
+                {
+                  "text": "北京市朝阳区望京SOHO",
+                  "answer_start": 103
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fwork_location_q5",
+              "question": "Where will the employee or intern work?",
+              "answers": [
+                {
+                  "text": "北京市朝阳区望京SOHO",
+                  "answer_start": 103
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fwork_location_q6",
+              "question": "What is the company's office address for the employee's work?",
+              "answers": [
+                {
+                  "text": "北京市朝阳区望京SOHO",
+                  "answer_start": 103
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fsalary_amount_q7",
+              "question": "What is the exact salary or compensation amount including currency?",
+              "answers": [
+                {
+                  "text": "15000",
+                  "answer_start": 159
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fsalary_amount_q8",
+              "question": "How much is the monthly salary stated in GBP, EUR, or USD?",
+              "answers": [
+                {
+                  "text": "15000",
+                  "answer_start": 159
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fsalary_amount_q9",
+              "question": "What is the base pay amount in this contract?",
+              "answers": [
+                {
+                  "text": "15000",
+                  "answer_start": 159
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fpayment_cycle_q10",
+              "question": "How often and on what day is salary paid?",
+              "answers": [
+                {
+                  "text": "按月",
+                  "answer_start": 168
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fpayment_cycle_q11",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "按月",
+                  "answer_start": 168
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fpayment_cycle_q12",
+              "question": "What is the payment frequency for salary in this contract?",
+              "answers": [
+                {
+                  "text": "按月",
+                  "answer_start": 168
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fparty_a_q13",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "北京星辰科技有限公司",
+                  "answer_start": 9
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fparty_a_q14",
+              "question": "Who is the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "北京星辰科技有限公司",
+                  "answer_start": 9
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fparty_a_q15",
+              "question": "What company is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "北京星辰科技有限公司",
+                  "answer_start": 9
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fparty_b_q16",
+              "question": "What is the full name of the employee or intern?",
+              "answers": [
+                {
+                  "text": "张三",
+                  "answer_start": 23
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fparty_b_q17",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "张三",
+                  "answer_start": 23
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c2_fparty_b_q18",
+              "question": "What is Party B's name in this agreement?",
+              "answers": [
+                {
+                  "text": "张三",
+                  "answer_start": 23
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "Labor Contract Party A: Beijing Xingchen Technology Co., Ltd. Party B: Zhang San \nArticle 1 Term of the Contract The term of this contract shall be 2 years, from July 1, 2024 to June 30, 2026. The probation period shall be 3 months. \nArticle 2 Job Position Party B’s position shall be Software Engineer, and the workplace shall be Wangjing SOHO, Chaoyang District, Beijing. \nArticle 3 Working Hours Working hours shall be adjusted as needed and subject to the arrangements of the company. \nArticle 4 Salary and Benefits Party B’s salary shall be RMB 15,000 per month, to be paid monthly. The salary for the previous month shall be paid on the 15th of each month. \nArticle 5 Liability for Breach of Contract The liquidated damages for breach of contract may be up to 50% of the annual salary, exceeding six times the monthly salary. If Party B resigns early, Party B shall pay liquidated damages. \nArticle 6 Termination of the Contract Party A shall have the right to terminate this contract at any time without prior notice. \nArticle 7 Dispute Resolution Any dispute arising from the performance of this contract shall first be resolved through consultation between the parties. If consultation fails, the dispute shall be submitted to the Beijing Arbitration Commission for arbitration.",
+          "qas": [
+            {
+              "id": "c5_fjob_title_q1",
+              "question": "What specific position or role is the employee or intern hired for?",
+              "answers": [
+                {
+                  "text": "Software Engineer",
+                  "answer_start": 285
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fjob_title_q2",
+              "question": "What position does the employee serve as in this contract?",
+              "answers": [
+                {
+                  "text": "Software Engineer",
+                  "answer_start": 285
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fjob_title_q3",
+              "question": "What is the intern's or employee's job title?",
+              "answers": [
+                {
+                  "text": "Software Engineer",
+                  "answer_start": 285
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fwork_location_q4",
+              "question": "What is the address of the employee's workplace or office?",
+              "answers": [
+                {
+                  "text": "Wangjing SOHO",
+                  "answer_start": 331
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fwork_location_q5",
+              "question": "Where will the employee or intern work?",
+              "answers": [
+                {
+                  "text": "Wangjing SOHO",
+                  "answer_start": 331
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fwork_location_q6",
+              "question": "What is the company's office address for the employee's work?",
+              "answers": [
+                {
+                  "text": "Wangjing SOHO",
+                  "answer_start": 331
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fsalary_amount_q7",
+              "question": "What is the exact salary or compensation amount including currency?",
+              "answers": [
+                {
+                  "text": "RMB 15,000 per month",
+                  "answer_start": 546
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fsalary_amount_q8",
+              "question": "How much is the monthly salary stated in GBP, EUR, or USD?",
+              "answers": [
+                {
+                  "text": "RMB 15,000 per month",
+                  "answer_start": 546
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fsalary_amount_q9",
+              "question": "What is the base pay amount in this contract?",
+              "answers": [
+                {
+                  "text": "RMB 15,000 per month",
+                  "answer_start": 546
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fpayment_cycle_q10",
+              "question": "How often and on what day is salary paid?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 579
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fpayment_cycle_q11",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 579
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fpayment_cycle_q12",
+              "question": "What is the payment frequency for salary in this contract?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 579
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fparty_a_q13",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Beijing Xingchen Technology Co",
+                  "answer_start": 24
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fparty_a_q14",
+              "question": "Who is the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Beijing Xingchen Technology Co",
+                  "answer_start": 24
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fparty_a_q15",
+              "question": "What company is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Beijing Xingchen Technology Co",
+                  "answer_start": 24
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fparty_b_q16",
+              "question": "What is the full name of the employee or intern?",
+              "answers": [
+                {
+                  "text": "Zhang San",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fparty_b_q17",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "Zhang San",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c5_fparty_b_q18",
+              "question": "What is Party B's name in this agreement?",
+              "answers": [
+                {
+                  "text": "Zhang San",
+                  "answer_start": 71
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "EMPLOYMENT CONTRACT (Risk Test Document)  This Employment Contract is entered into on 1 March 2026, between:  Employer: Nexus Global Corp., registered at 55 Commerce Street, London, EC1A 1BB (\"Party A\" / \"the Company\")  Employee: Jordan Lee, residing at 14 Riverside Road, London, SE1 9GF (\"Party B\")  \nArticle 1  Position and Job Title Party B is employed in the position of Senior Operations Analyst. Party B shall perform such duties as the Company may reasonably direct from time to time.  \nArticle 2  Contract Term The contract term of this Agreement commences on 1 March 2026 and expires on 28 February 2028. Upon expiry, both parties may negotiate a renewal.  \nArticle 3  Work Location Party B's work location shall be the Company's office at 55 Commerce Street, London. Any permanent relocation requires Party B's written consent.  \nArticle 4  Salary and Payment \tParty B's compensation shall be subject to company policy and will be confirmed separately at the discretion of management. The wage to be decided by the Company based on annual budget review, and Party B raises no objection to such arrangements.  \nArticle 5  Working Hours  Party B's working hours shall be subject to company arrangement and may vary as required by business needs. The Company may adjust hours at the employer's discretion without prior notice. Party B shall be available at all times during peak operational periods.  \nArticle 6  Probation Period The probationary period is 3 months from 1 March 2026 to 31 May 2026. Party B's probation salary shall be 80% of the confirmed salary and no less than the minimum wage for the equivalent role.  \nArticle 7  Termination Conditions  Party A reserves the right to terminate this Agreement at the employer's sole discretion and may terminate for any reason without obligation to provide \njustification. Party A may also initiate unilateral termination where it deems Party B's performance unsatisfactory, with or without prior warning.  \nArticle 8  Notice Period  Party B must provide 90 days' notice in writing prior to resignation. Failure to provide the full 90 days' notice shall entitle the Company to withhold the equivalent salary for the shortfall period.  \nArticle 9  Breach Liability and Penalty  Party A shall invest GBP 5,000 for specialised technical training for Party B. Should Party B resign within 24 months of training completion, a penalty clause shall apply: liquidated damages equal to the full training cost plus a penalty equal to three months' salary shall be payable by Party B immediately upon resignation.  \nArticle 10  Liability and Risk  All risks and losses arising from Party B's performance of duties shall be borne by Party B. The employer bears no responsibility for any work-related loss or injury sustained in the course of employment. Party A shall not be liable for any direct or indirect damages resulting from operational decisions made by Party B in the course of their role.  \nArticle 11  Variation of Terms  The Company reserves the right to amend any terms of this Agreement at any time, including the right to adjust position and salary at any time without Party B's consent. Such changes shall take effect subject to change without notice.  \nArticle 12  Social Insurance and Benefits Party A shall contribute to Party B's pension, medical, and work-injury insurance in accordance with applicable national regulations. Party B is entitled to 20 days of paid annual leave per year.  \nArticle 13  Confidentiality Party B agrees to keep all proprietary and confidential information strictly private during and after the period of employment.  \nArticle 14  Dispute Resolution Any dispute arising from this Agreement shall first be resolved through friendly negotiation. If unresolved within 30 days, either party may submit the dispute to the competent Labour Dispute Arbitration Commission. If dissatisfied with the \naward, either party may litigate before the court of competent jurisdiction under the governing law of England and Wales.  IN WITNESS WHEREOF, the parties have signed this Agreement.  Party A (Employer): Nexus Global Corp. Authorised Signatory: ____________________   Date: 1 March 2026  Party B (Employee): Jordan Lee Signature: ____________________   Date: 1 March 2026",
+          "qas": [
+            {
+              "id": "c7_fjob_title_q1",
+              "question": "What specific position or role is the employee or intern hired for?",
+              "answers": [
+                {
+                  "text": "Senior Operations Analyst",
+                  "answer_start": 376
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fjob_title_q2",
+              "question": "What position does the employee serve as in this contract?",
+              "answers": [
+                {
+                  "text": "Senior Operations Analyst",
+                  "answer_start": 376
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fjob_title_q3",
+              "question": "What is the intern's or employee's job title?",
+              "answers": [
+                {
+                  "text": "Senior Operations Analyst",
+                  "answer_start": 376
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fwork_location_q4",
+              "question": "What is the address of the employee's workplace or office?",
+              "answers": [
+                {
+                  "text": "55 Commerce Street, London",
+                  "answer_start": 154
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fwork_location_q5",
+              "question": "Where will the employee or intern work?",
+              "answers": [
+                {
+                  "text": "55 Commerce Street, London",
+                  "answer_start": 154
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fwork_location_q6",
+              "question": "What is the company's office address for the employee's work?",
+              "answers": [
+                {
+                  "text": "55 Commerce Street, London",
+                  "answer_start": 154
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fparty_a_q7",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Nexus Global Corp",
+                  "answer_start": 120
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fparty_a_q8",
+              "question": "Who is the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Nexus Global Corp",
+                  "answer_start": 120
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fparty_a_q9",
+              "question": "What company is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Nexus Global Corp",
+                  "answer_start": 120
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fparty_b_q10",
+              "question": "What is the full name of the employee or intern?",
+              "answers": [
+                {
+                  "text": "Jordan Lee",
+                  "answer_start": 230
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fparty_b_q11",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "Jordan Lee",
+                  "answer_start": 230
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c7_fparty_b_q12",
+              "question": "What is Party B's name in this agreement?",
+              "answers": [
+                {
+                  "text": "Jordan Lee",
+                  "answer_start": 230
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "INTERNSHIP AGREEMENTThis Internship Agreement (“Agreement”) is entered into on 1 April 2026, by and between:Employer: BrightPath Consulting Ltd., registered at 88 King Street, Manchester, M2 4WQ(hereinafter referred to as the “Company”)andIntern: Alex Chen, residing at 19 Willow Crescent, Manchester, M14 6AB(hereinafter referred to as the “Intern”)\nArticle 1 Internship PositionThe Intern shall serve as a Business Operations Intern and shall perform such tasks, assignments, and other duties as the Company may determine from time to time. The Company may require the Intern to undertake any responsibilities related or unrelated to the original internship role as business needs arise.\nArticle 2 Internship TermThe internship shall commence on 1 April 2026 and continue until 30 September 2026, unless earlier terminated in accordance with this Agreement. The Company may extend the internship at its sole discretion.\nArticle 3 Work LocationThe Intern’s primary work location shall be the Company’s office at 88 King Street, Manchester. The Company may require the Intern to work at any other office, branch, client site, or remote location designated by the Company at any time without additional compensation.\nArticle 4 CompensationThe Intern’s allowance, salary, subsidy, or any other form of compensation shall be determined by the Company in accordance with internal policy and may be adjusted, suspended, or withheld at the Company’s discretion. Specific payment standards may be communicated separately by the Company from time to time.\nArticle 5 Working HoursThe Intern’s working hours shall be subject to the Company’s operational needs. The Intern may be required to work evenings, weekends, holidays, and additional hours whenever requested by the Company. No extra compensation shall be payable for overtime, extended hours, or urgent assignments.\nArticle 6 Probation and AssessmentThe first two months of the internship shall be treated as an assessment period. During this period, the Company may terminate the internship immediately if the Intern’s performance is considered unsatisfactory by the Company, with or without prior notice or explanation.\nArticle 7 Supervision and EvaluationThe Intern shall comply fully with all directions, internal rules, performance expectations, and \nThe Intern shall comply fully with all directions, internal rules, performance expectations, and management instructions issued by the Company. The Company shall have sole authority to evaluate the Intern’s performance, conduct, suitability, and continued placement.\nArticle 8 TerminationThe Company may terminate this Agreement at any time, for any reason or no reason, and shall not be required to provide justification, severance, or prior warning. The Intern may resign only by giving 60 days’ prior written notice, subject to the Company’s approval.\nArticle 9 Early Departure and PenaltyIf the Intern leaves the internship before the agreed end date, refuses assigned duties, or is absent without approval, the Company may require the Intern to reimburse all training costs, administrative costs, onboarding expenses, and any losses deemed by the Company to have resulted from such departure. The Company may also deduct such amounts from any unpaid compensation.\nArticle 10 ConfidentialityThe Intern shall keep strictly confidential all business, technical, operational, financial, client, and personnel information learned during the internship. This obligation shall continue indefinitely after the termination or expiration of this Agreement.\nArticle 11 Intellectual PropertyAll work results, reports, documents, materials, ideas, concepts, drafts, notes, software, presentations, and other outputs created by the Intern during the internship, whether during working hours or otherwise, shall automatically belong exclusively to the Company without additional payment.\nArticle 12 LiabilityThe Intern shall be personally responsible for any loss, damage, cost, claim, or liability arising directly or indirectly out of the Intern’s work, conduct, error, omission, or judgment. The Company shall not be liable for any injury, expense, or damage suffered by the Intern during the internship unless otherwise required by mandatory law.\nArticle 13 Variation of TermsThe Company reserves the right to modify, interpret, suspend, or replace any provision of this Agreement, including but not limited to duties, compensation, working hours, location, reporting line, and evaluation criteria, at any time without the Intern’s consent. Such changes shall become effective immediately upon notice or internal publication.\nArticle 14 Company PoliciesThe Intern agrees to comply with all present and future Company policies, handbooks, instructions, compliance rules, security rules, and workplace requirements, whether or not separately provided in writing.\nArticle 15 Governing Law and Dispute ResolutionAny dispute arising out of or in connection with this Agreement shall first be discussed in good faith. If no resolution is reached, the dispute shall be submitted to a forum selected by the Company. The Company shall retain the right to determine the appropriate jurisdiction and venue.\nArticle 16 Entire AgreementThis Agreement constitutes the entire understanding between the parties with respect to the internship arrangement.IN WITNESS WHEREOF, the parties have signed this Agreement on the date first written above.For the Company:Name: ________Title: ________Signature: ________Date: ________Intern:Name: Alex ChenSignature: ________Date: ________",
+          "qas": [
+            {
+              "id": "c8_fjob_title_q1",
+              "question": "What specific position or role is the employee or intern hired for?",
+              "answers": [
+                {
+                  "text": "Business Operations Intern",
+                  "answer_start": 408
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fjob_title_q2",
+              "question": "What position does the employee serve as in this contract?",
+              "answers": [
+                {
+                  "text": "Business Operations Intern",
+                  "answer_start": 408
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fjob_title_q3",
+              "question": "What is the intern's or employee's job title?",
+              "answers": [
+                {
+                  "text": "Business Operations Intern",
+                  "answer_start": 408
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fwork_location_q4",
+              "question": "What is the address of the employee's workplace or office?",
+              "answers": [
+                {
+                  "text": "88 King Street, Manchester",
+                  "answer_start": 160
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fwork_location_q5",
+              "question": "Where will the employee or intern work?",
+              "answers": [
+                {
+                  "text": "88 King Street, Manchester",
+                  "answer_start": 160
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fwork_location_q6",
+              "question": "What is the company's office address for the employee's work?",
+              "answers": [
+                {
+                  "text": "88 King Street, Manchester",
+                  "answer_start": 160
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fparty_a_q7",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "BrightPath Consulting Ltd",
+                  "answer_start": 118
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fparty_a_q8",
+              "question": "Who is the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "BrightPath Consulting Ltd",
+                  "answer_start": 118
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fparty_a_q9",
+              "question": "What company is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "BrightPath Consulting Ltd",
+                  "answer_start": 118
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fparty_b_q10",
+              "question": "What is the full name of the employee or intern?",
+              "answers": [
+                {
+                  "text": "Alex Chen",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fparty_b_q11",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "Alex Chen",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c8_fparty_b_q12",
+              "question": "What is Party B's name in this agreement?",
+              "answers": [
+                {
+                  "text": "Alex Chen",
+                  "answer_start": 247
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "EMPLOYMENT CONTRACT\n\nThis Contract of Employment is entered into on 15 January 2026, between:\n\nEmployer: Meridian Capital Partners LLP, registered at 30 Gresham Street, London, EC2V 7QP (\"the Firm\")\n\nEmployee: Oliver Bennett, residing at 4 Primrose Hill Road, London, NW3 3AD (\"the Employee\")\n\n1. Job Title\nThe Employee is appointed as Risk Analyst and shall carry out all duties consistent with this role.\n\n2. Salary\nThe Employee's basic annual salary is GBP 62,000, payable monthly in arrears on the 28th of each month by bank transfer.\n\n3. Place of Work\nThe Employee's normal place of work is the Firm's office at 30 Gresham Street, London, EC2V 7QP.\n\n4. Start Date and Term\nEmployment commences on 1 February 2026 and is permanent, subject to the terms of this Contract.\n\n5. Probationary Period\nThe Employee will serve a probationary period of 6 months from the start date.\n\n6. Notice\nEither party may terminate this Contract by giving 4 weeks' written notice during the probationary period and 3 months' notice thereafter.\n\n7. Confidentiality\nThe Employee shall not disclose confidential information relating to the Firm's business during or after employment.\n\nSigned by the Firm: ____________________  Date: 15 January 2026\n\nSigned by the Employee: ____________________  Date: 15 January 2026",
+          "qas": [
+            {
+              "id": "c10_fparty_a_q1",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Meridian Capital Partners LLP",
+                  "answer_start": 105
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fparty_a_q2",
+              "question": "Who is the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Meridian Capital Partners LLP",
+                  "answer_start": 105
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fparty_a_q3",
+              "question": "What company is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Meridian Capital Partners LLP",
+                  "answer_start": 105
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fparty_b_q4",
+              "question": "What is the full name of the employee or intern?",
+              "answers": [
+                {
+                  "text": "Oliver Bennett",
+                  "answer_start": 210
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fparty_b_q5",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "Oliver Bennett",
+                  "answer_start": 210
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fparty_b_q6",
+              "question": "What is Party B's name in this agreement?",
+              "answers": [
+                {
+                  "text": "Oliver Bennett",
+                  "answer_start": 210
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fjob_title_q7",
+              "question": "What specific position or role is the employee or intern hired for?",
+              "answers": [
+                {
+                  "text": "Risk Analyst",
+                  "answer_start": 336
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fjob_title_q8",
+              "question": "What position does the employee serve as in this contract?",
+              "answers": [
+                {
+                  "text": "Risk Analyst",
+                  "answer_start": 336
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fjob_title_q9",
+              "question": "What is the intern's or employee's job title?",
+              "answers": [
+                {
+                  "text": "Risk Analyst",
+                  "answer_start": 336
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fwork_location_q10",
+              "question": "What is the address of the employee's workplace or office?",
+              "answers": [
+                {
+                  "text": "30 Gresham Street, London, EC2V 7QP",
+                  "answer_start": 150
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fwork_location_q11",
+              "question": "Where will the employee or intern work?",
+              "answers": [
+                {
+                  "text": "30 Gresham Street, London, EC2V 7QP",
+                  "answer_start": 150
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fwork_location_q12",
+              "question": "What is the company's office address for the employee's work?",
+              "answers": [
+                {
+                  "text": "30 Gresham Street, London, EC2V 7QP",
+                  "answer_start": 150
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fsalary_amount_q13",
+              "question": "What is the exact salary or compensation amount including currency?",
+              "answers": [
+                {
+                  "text": "GBP 62,000",
+                  "answer_start": 456
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fsalary_amount_q14",
+              "question": "How much is the monthly or annual salary stated in this contract?",
+              "answers": [
+                {
+                  "text": "GBP 62,000",
+                  "answer_start": 456
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fsalary_amount_q15",
+              "question": "What is the base pay amount in this contract?",
+              "answers": [
+                {
+                  "text": "GBP 62,000",
+                  "answer_start": 456
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fpayment_cycle_q16",
+              "question": "How often and on what day is salary paid?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 476
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fpayment_cycle_q17",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 476
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c10_fpayment_cycle_q18",
+              "question": "What is the payment frequency for salary in this contract?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 476
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "SERVICE CONTRACT OF EMPLOYMENT\n\nThis Contract of Employment is concluded on 1 March 2026 between:\n\nEmployer: DigitalWave GmbH, registered at Unter den Linden 21, 10117 Berlin, Germany (\"the Employer\")\n\nEmployee: Sophie Mueller, residing at Kastanienallee 55, 10119 Berlin, Germany (\"the Employee\")\n\nSection 1 – Position\nThe Employee is employed as a UX Designer. The Employee shall carry out all associated tasks and responsibilities.\n\nSection 2 – Remuneration\nThe gross monthly salary is EUR 5,200, payable on the last working day of each month by bank transfer to the Employee's nominated account.\n\nSection 3 – Place of Work\nThe Employee's regular place of work is the Employer's registered office at Unter den Linden 21, 10117 Berlin.\n\nSection 4 – Duration\nThis contract begins on 1 March 2026 and is for an indefinite term.\n\nSection 5 – Probationary Period\nThe first 6 months constitute a probationary period during which either party may terminate the contract with 2 weeks' notice.\n\nSection 6 – Working Hours\nRegular working hours are 40 hours per week, Monday to Friday.\n\nSection 7 – Confidentiality and Data Protection\nThe Employee shall comply with all applicable data protection regulations and maintain the confidentiality of Employer data at all times.\n\nFor the Employer:\nName: ____________________  Signature: ____________________  Date: 1 March 2026\n\nEmployee:\nName: Sophie Mueller  Signature: ____________________  Date: 1 March 2026",
+          "qas": [
+            {
+              "id": "c11_fparty_a_q1",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "DigitalWave GmbH",
+                  "answer_start": 109
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fparty_a_q2",
+              "question": "Who is the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "DigitalWave GmbH",
+                  "answer_start": 109
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fparty_a_q3",
+              "question": "What company is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "DigitalWave GmbH",
+                  "answer_start": 109
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fparty_b_q4",
+              "question": "What is the full name of the employee or intern?",
+              "answers": [
+                {
+                  "text": "Sophie Mueller",
+                  "answer_start": 212
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fparty_b_q5",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "Sophie Mueller",
+                  "answer_start": 212
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fparty_b_q6",
+              "question": "What is Party B's name in this agreement?",
+              "answers": [
+                {
+                  "text": "Sophie Mueller",
+                  "answer_start": 212
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fjob_title_q7",
+              "question": "What specific position or role is the employee or intern hired for?",
+              "answers": [
+                {
+                  "text": "UX Designer",
+                  "answer_start": 350
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fjob_title_q8",
+              "question": "What position does the employee serve as in this contract?",
+              "answers": [
+                {
+                  "text": "UX Designer",
+                  "answer_start": 350
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fjob_title_q9",
+              "question": "What is the intern's or employee's job title?",
+              "answers": [
+                {
+                  "text": "UX Designer",
+                  "answer_start": 350
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fwork_location_q10",
+              "question": "What is the address of the employee's workplace or office?",
+              "answers": [
+                {
+                  "text": "Unter den Linden 21, 10117 Berlin",
+                  "answer_start": 141
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fwork_location_q11",
+              "question": "Where will the employee or intern work?",
+              "answers": [
+                {
+                  "text": "Unter den Linden 21, 10117 Berlin",
+                  "answer_start": 141
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fwork_location_q12",
+              "question": "What is the company's office address for the employee's work?",
+              "answers": [
+                {
+                  "text": "Unter den Linden 21, 10117 Berlin",
+                  "answer_start": 141
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fsalary_amount_q13",
+              "question": "What is the exact salary or compensation amount including currency?",
+              "answers": [
+                {
+                  "text": "EUR 5,200",
+                  "answer_start": 489
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fsalary_amount_q14",
+              "question": "How much is the monthly or annual salary stated in this contract?",
+              "answers": [
+                {
+                  "text": "EUR 5,200",
+                  "answer_start": 489
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fsalary_amount_q15",
+              "question": "What is the base pay amount in this contract?",
+              "answers": [
+                {
+                  "text": "EUR 5,200",
+                  "answer_start": 489
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fpayment_cycle_q16",
+              "question": "How often and on what day is salary paid?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 471
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fpayment_cycle_q17",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 471
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c11_fpayment_cycle_q18",
+              "question": "What is the payment frequency for salary in this contract?",
+              "answers": [
+                {
+                  "text": "monthly",
+                  "answer_start": 471
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "EMPLOYMENT CONTRACT\n\nThis Employment Contract is made on 5 March 2026 between:\n\nEmployer: Coral Reef Analytics Pty Ltd, ABN 55 123 456 789, located at Level 8, 1 Market Street, Sydney NSW 2000 (\"the Employer\")\n\nEmployee: Emma Walsh, residing at 14 Bronte Road, Bondi Junction NSW 2022 (\"the Employee\")\n\n1. Position\nThe Employee is employed as a Business Intelligence Analyst, reporting to the Head of Analytics.\n\n2. Remuneration\nThe Employee's annual salary is AUD 98,000, paid fortnightly on each alternate Friday by electronic funds transfer.\n\n3. Work Location\nThe Employee's usual place of work is the Employer's office at Level 8, 1 Market Street, Sydney NSW 2000.\n\n4. Commencement\nEmployment commences on 23 March 2026 on a full-time, permanent basis.\n\n5. Probation Period\nThe probationary period is 6 months from the commencement date, during which either party may terminate employment by providing 1 week's notice.\n\n6. Leave Entitlements\nThe Employee is entitled to 4 weeks of annual leave per year and 10 days of personal/carer's leave per year.\n\n7. Confidentiality\nThe Employee agrees to keep all confidential information of the Employer private and not to disclose it to any third party.\n\n8. Governing Law\nThis contract is governed by the laws of New South Wales, Australia.\n\nSigned for and on behalf of the Employer:\nSignature: ____________________  Date: 5 March 2026\n\nSigned by the Employee:\nEmma Walsh  Signature: ____________________  Date: 5 March 2026",
+          "qas": [
+            {
+              "id": "c13_fparty_a_q1",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "Coral Reef Analytics Pty Ltd",
+                  "answer_start": 90
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fparty_a_q2",
+              "question": "Who is the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "Coral Reef Analytics Pty Ltd",
+                  "answer_start": 90
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fparty_a_q3",
+              "question": "What company is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "Coral Reef Analytics Pty Ltd",
+                  "answer_start": 90
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fparty_b_q4",
+              "question": "What is the full name of the employee or intern?",
+              "answers": [
+                {
+                  "text": "Emma Walsh",
+                  "answer_start": 221
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fparty_b_q5",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "Emma Walsh",
+                  "answer_start": 221
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fparty_b_q6",
+              "question": "What is Party B's name in this agreement?",
+              "answers": [
+                {
+                  "text": "Emma Walsh",
+                  "answer_start": 221
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fjob_title_q7",
+              "question": "What specific position or role is the employee or intern hired for?",
+              "answers": [
+                {
+                  "text": "Business Intelligence Analyst",
+                  "answer_start": 345
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fjob_title_q8",
+              "question": "What position does the employee serve as in this contract?",
+              "answers": [
+                {
+                  "text": "Business Intelligence Analyst",
+                  "answer_start": 345
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fjob_title_q9",
+              "question": "What is the intern's or employee's job title?",
+              "answers": [
+                {
+                  "text": "Business Intelligence Analyst",
+                  "answer_start": 345
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fwork_location_q10",
+              "question": "What is the address of the employee's workplace or office?",
+              "answers": [
+                {
+                  "text": "Level 8, 1 Market Street, Sydney NSW 2000",
+                  "answer_start": 151
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fwork_location_q11",
+              "question": "Where will the employee or intern work?",
+              "answers": [
+                {
+                  "text": "Level 8, 1 Market Street, Sydney NSW 2000",
+                  "answer_start": 151
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fwork_location_q12",
+              "question": "What is the company's office address for the employee's work?",
+              "answers": [
+                {
+                  "text": "Level 8, 1 Market Street, Sydney NSW 2000",
+                  "answer_start": 151
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fsalary_amount_q13",
+              "question": "What is the exact salary or compensation amount including currency?",
+              "answers": [
+                {
+                  "text": "AUD 98,000",
+                  "answer_start": 461
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fsalary_amount_q14",
+              "question": "How much is the monthly or annual salary stated in this contract?",
+              "answers": [
+                {
+                  "text": "AUD 98,000",
+                  "answer_start": 461
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fsalary_amount_q15",
+              "question": "What is the base pay amount in this contract?",
+              "answers": [
+                {
+                  "text": "AUD 98,000",
+                  "answer_start": 461
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fpayment_cycle_q16",
+              "question": "How often and on what day is salary paid?",
+              "answers": [
+                {
+                  "text": "fortnightly",
+                  "answer_start": 478
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fpayment_cycle_q17",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "fortnightly",
+                  "answer_start": 478
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c13_fpayment_cycle_q18",
+              "question": "What is the payment frequency for salary in this contract?",
+              "answers": [
+                {
+                  "text": "fortnightly",
+                  "answer_start": 478
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        },
+        {
+          "context": "OFFER OF EMPLOYMENT\n\nDate: 12 February 2026\n\nEmployer: NorthStar Financial Services Inc.\nAddress: 200 Bay Street, Suite 3300, Toronto, ON M5J 2J1\n\nEmployee: Daniel Okafor\nAddress: 88 Rosedale Valley Road, Toronto, ON M4W 1P5\n\nPosition: Senior Compliance Officer\n\nDear Daniel,\n\nWe are delighted to confirm your employment with NorthStar Financial Services Inc. on the following terms:\n\n1. Start Date\nYour employment commences on 2 March 2026.\n\n2. Compensation\nYour annual base salary will be CAD 115,000, paid bi-weekly on every other Wednesday via direct deposit.\n\n3. Work Location\nYou will be based at our Toronto head office at 200 Bay Street, Suite 3300, Toronto, ON M5J 2J1.\n\n4. Probationary Period\nYour employment is subject to a 3-month probationary period beginning on your start date.\n\n5. Benefits\nYou will be eligible to participate in the Company's group benefits plan, including health, dental, and vision coverage.\n\n6. Confidentiality\nYou agree to maintain the confidentiality of all non-public information relating to NorthStar and its clients at all times.\n\n7. Governing Law\nThis offer and any resulting employment are governed by the laws of the Province of Ontario.\n\nPlease sign and return one copy of this letter by 20 February 2026.\n\nFor NorthStar Financial Services Inc.:\nAuthorised Signatory: ____________________  Date: 12 February 2026\n\nAccepted by:\nDaniel Okafor  Signature: ____________________  Date: 12 February 2026",
+          "qas": [
+            {
+              "id": "c14_fparty_a_q1",
+              "question": "What is the full name of the employer or company?",
+              "answers": [
+                {
+                  "text": "NorthStar Financial Services Inc",
+                  "answer_start": 55
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fparty_a_q2",
+              "question": "Who is the employer in this agreement?",
+              "answers": [
+                {
+                  "text": "NorthStar Financial Services Inc",
+                  "answer_start": 55
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fparty_a_q3",
+              "question": "What company is Party A in this contract?",
+              "answers": [
+                {
+                  "text": "NorthStar Financial Services Inc",
+                  "answer_start": 55
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fparty_b_q4",
+              "question": "What is the full name of the employee or intern?",
+              "answers": [
+                {
+                  "text": "Daniel Okafor",
+                  "answer_start": 157
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fparty_b_q5",
+              "question": "Who is the employee signing this contract?",
+              "answers": [
+                {
+                  "text": "Daniel Okafor",
+                  "answer_start": 157
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fparty_b_q6",
+              "question": "What is Party B's name in this agreement?",
+              "answers": [
+                {
+                  "text": "Daniel Okafor",
+                  "answer_start": 157
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fjob_title_q7",
+              "question": "What specific position or role is the employee or intern hired for?",
+              "answers": [
+                {
+                  "text": "Senior Compliance Officer",
+                  "answer_start": 236
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fjob_title_q8",
+              "question": "What position does the employee serve as in this contract?",
+              "answers": [
+                {
+                  "text": "Senior Compliance Officer",
+                  "answer_start": 236
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fjob_title_q9",
+              "question": "What is the intern's or employee's job title?",
+              "answers": [
+                {
+                  "text": "Senior Compliance Officer",
+                  "answer_start": 236
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fwork_location_q10",
+              "question": "What is the address of the employee's workplace or office?",
+              "answers": [
+                {
+                  "text": "200 Bay Street, Suite 3300, Toronto, ON M5J 2J1",
+                  "answer_start": 98
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fwork_location_q11",
+              "question": "Where will the employee or intern work?",
+              "answers": [
+                {
+                  "text": "200 Bay Street, Suite 3300, Toronto, ON M5J 2J1",
+                  "answer_start": 98
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fwork_location_q12",
+              "question": "What is the company's office address for the employee's work?",
+              "answers": [
+                {
+                  "text": "200 Bay Street, Suite 3300, Toronto, ON M5J 2J1",
+                  "answer_start": 98
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fsalary_amount_q13",
+              "question": "What is the exact salary or compensation amount including currency?",
+              "answers": [
+                {
+                  "text": "CAD 115,000",
+                  "answer_start": 491
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fsalary_amount_q14",
+              "question": "How much is the monthly or annual salary stated in this contract?",
+              "answers": [
+                {
+                  "text": "CAD 115,000",
+                  "answer_start": 491
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fsalary_amount_q15",
+              "question": "What is the base pay amount in this contract?",
+              "answers": [
+                {
+                  "text": "CAD 115,000",
+                  "answer_start": 491
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fpayment_cycle_q16",
+              "question": "How often and on what day is salary paid?",
+              "answers": [
+                {
+                  "text": "bi-weekly",
+                  "answer_start": 509
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fpayment_cycle_q17",
+              "question": "On which day of the month is the salary paid?",
+              "answers": [
+                {
+                  "text": "bi-weekly",
+                  "answer_start": 509
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "id": "c14_fpayment_cycle_q18",
+              "question": "What is the payment frequency for salary in this contract?",
+              "answers": [
+                {
+                  "text": "bi-weekly",
+                  "answer_start": 509
+                }
+              ],
+              "is_impossible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Backward-compatible meta requirements (full backend stack).
+# - Deployment VM: install only requirements-runtime.txt
+# - Model training/evaluation machine: install runtime + requirements-ml.txt
+-r requirements-runtime.txt
+-r requirements-ml.txt

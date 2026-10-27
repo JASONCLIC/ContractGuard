@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "status": "ok",
+    "contracts": 1,
+    "field_pairs": 12,
+    "e2e_em": 0.8333333333333334
+  },
+  "rows": [
+    {
+      "contract_id": 21,
+      "field": "contract_name",
+      "em": 1.0,
+      "gold": "employmentcontract",
+      "pred": "employmentcontract"
+    },
+    {
+      "contract_id": 21,
+      "field": "party_a",
+      "em": 1.0,
+      "gold": "nexusglobalcorp",
+      "pred": "nexusglobalcorp"
+    },
+    {
+      "contract_id": 21,
+      "field": "party_b",
+      "em": 1.0,
+      "gold": "jordanlee",
+      "pred": "jordanlee"
+    },
+    {
+      "contract_id": 21,
+      "field": "job_title",
+      "em": 1.0,
+      "gold": "senioroperationsanalyst",
+      "pred": "senioroperationsanalyst"
+    },
+    {
+      "contract_id": 21,
+      "field": "work_location",
+      "em": 1.0,
+      "gold": "55commercestreetlondon",
+      "pred": "55commercestreetlondon"
+    },
+    {
+      "contract_id": 21,
+      "field": "salary_amount",
+      "em": 0.0,
+      "gold": "5000",
+      "pred": ""
+    },
+    {
+      "contract_id": 21,
+      "field": "payment_cycle",
+      "em": 0.0,
+      "gold": "",
+      "pred": ""
+    },
+    {
+      "contract_id": 21,
+      "field": "probation",
+      "em": 1.0,
+      "gold": "theprobationaryperiodis3monthsfrom1march2026to31may2026partybsprobationsalaryshallbe80oftheconfirmedsalaryandnolessthantheminimumwagefortheequivalentrole",
+      "pred": "theprobationaryperiodis3monthsfrom1march2026to31may2026partybsprobationsalaryshallbe80oftheconfirmedsalaryandnolessthantheminimumwagefortheequivalentrole"
+    },
+    {
+      "contract_id": 21,
+      "field": "contract_term",
+      "em": 1.0,
+      "gold": "thecontracttermofthisagreementcommenceson1march2026andexpireson28february2028uponexpirybothpartiesmaynegotiatearenewal",
+      "pred": "thecontracttermofthisagreementcommenceson1march2026andexpireson28february2028uponexpirybothpartiesmaynegotiatearenewal"
+    },
+    {
+      "contract_id": 21,
+      "field": "termination_conditions",
+      "em": 1.0,
+      "gold": "partyareservestherighttoterminatethisagreementattheemployerssolediscretionandmayterminateforanyreasonwithoutobligationtoprovidejustificationpartyamayalsoinitiateunilateralterminationwhereitdeemspartybsperformanceunsatisfactorywithorwithoutpriorwarning",
+      "pred": "partyareservestherighttoterminatethisagreementattheemployerssolediscretionandmayterminateforanyreasonwithoutobligationtoprovidejustificationpartyamayalsoinitiateunilateralterminationwhereitdeemspartybsperformanceunsatisfactorywithorwithoutpriorwarning"
+    },
+    {
+      "contract_id": 21,
+      "field": "breach_liability",
+      "em": 1.0,
+      "gold": "partyashallinvestgbp5000forspecialisedtechnicaltrainingforpartybshouldpartybresignwithin24monthsoftrainingcompletionapenaltyclauseshallapplyliquidateddamagesequaltothefulltrainingcostplusapenaltyequaltothreemonthssalaryshallbepayablebypartybimme",
+      "pred": "partyashallinvestgbp5000forspecialisedtechnicaltrainingforpartybshouldpartybresignwithin24monthsoftrainingcompletionapenaltyclauseshallapplyliquidateddamagesequaltothefulltrainingcostplusapenaltyequaltothreemonthssalaryshallbepayablebypartybimme"
+    },
+    {
+      "contract_id": 21,
+      "field": "dispute_resolution",
+      "em": 1.0,
+      "gold": "anydisputearisingfromthisagreementshallfirstberesolvedthroughfriendlynegotiationifunresolvedwithin30dayseitherpartymaysubmitthedisputetothecompetentlabourdisputearbitrationcommissionifdissatisfiedwiththeawardeitherpartymaylitigatebeforethecourtofcompe",
+      "pred": "anydisputearisingfromthisagreementshallfirstberesolvedthroughfriendlynegotiationifunresolvedwithin30dayseitherpartymaysubmitthedisputetothecompetentlabourdisputearbitrationcommissionifdissatisfiedwiththeawardeitherpartymaylitigatebeforethecourtofcompe"
+    }
+  ]
+}

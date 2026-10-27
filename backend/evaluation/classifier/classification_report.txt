@@ -1,0 +1,19 @@
+Accuracy: 0.8944
+
+                         precision    recall  f1-score   support
+
+   unilateral_exemption       0.74      0.80      0.77        66
+      excessive_penalty       0.64      0.60      0.62        45
+      vague_termination       0.90      0.90      0.90        40
+  probation_period_risk       0.92      1.00      0.96        11
+   wage_payment_unclear       1.00      0.91      0.95        11
+ overtime_leave_unclear       1.00      1.00      1.00        11
+            non_compete       0.92      0.90      0.91        52
+ip_ownership_assignment       0.92      0.95      0.93        37
+        confidentiality       0.82      0.82      0.82        11
+     dispute_resolution       1.00      0.98      0.99        89
+                no_risk       0.99      0.98      0.98        91
+
+               accuracy                           0.89       464
+              macro avg       0.90      0.89      0.89       464
+           weighted avg       0.90      0.89      0.89       464

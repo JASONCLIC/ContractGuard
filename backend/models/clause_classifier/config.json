@@ -1,0 +1,52 @@
+{
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "dtype": "float32",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "unilateral_exemption",
+    "1": "excessive_penalty",
+    "2": "vague_termination",
+    "3": "probation_period_risk",
+    "4": "wage_payment_unclear",
+    "5": "overtime_leave_unclear",
+    "6": "non_compete",
+    "7": "ip_ownership_assignment",
+    "8": "confidentiality",
+    "9": "dispute_resolution",
+    "10": "no_risk"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "confidentiality": 8,
+    "dispute_resolution": 9,
+    "excessive_penalty": 1,
+    "ip_ownership_assignment": 7,
+    "no_risk": 10,
+    "non_compete": 6,
+    "overtime_leave_unclear": 5,
+    "probation_period_risk": 3,
+    "unilateral_exemption": 0,
+    "vague_termination": 2,
+    "wage_payment_unclear": 4
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "problem_type": "single_label_classification",
+  "transformers_version": "4.57.6",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}

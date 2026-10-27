@@ -1,0 +1,40 @@
+{
+  "dataset_total": 2319,
+  "dataset_sources": {
+    "employment_train.json": 120,
+    "cuad_classified.jsonl": 3926,
+    "cuad_synthetic_employment_risks.jsonl": 200,
+    "cuad_additional_english_training.jsonl": 169
+  },
+  "evaluation_mode": "saved_split",
+  "split": {
+    "train_size": 1855,
+    "test_size": 464,
+    "test_ratio": 0.20008624407072015,
+    "random_state": 42,
+    "original_eval_split": null,
+    "split_file": "backend/data/classifier_split.json"
+  },
+  "multiclass": {
+    "accuracy": 0.8943965517241379,
+    "macro_precision": 0.8950297169759595,
+    "macro_recall": 0.8941495634549771,
+    "macro_f1": 0.893991507041113,
+    "weighted_f1": 0.89460045117901
+  },
+  "binary_risk_vs_no_risk": {
+    "distribution": {
+      "risk": 373,
+      "no_risk": 91
+    },
+    "accuracy": 0.9935344827586207,
+    "balanced_accuracy": 0.9876705064372624,
+    "mcc": 0.979432572037339,
+    "risk_precision": 0.9946524064171123,
+    "risk_recall": 0.9973190348525469,
+    "risk_f1": 0.9959839357429718,
+    "no_risk_precision": 0.9888888888888889,
+    "no_risk_recall": 0.978021978021978,
+    "no_risk_f1": 0.9834254143646409
+  }
+}

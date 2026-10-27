@@ -1,0 +1,236 @@
+[
+  {
+    "clause_text": "Party A may terminate this contract unilaterally at any time without bearing any liability.",
+    "correct_answer": "risk",
+    "explanation": "Unilateral, consequence-free termination by the employer is a classic risk clause that strips the employee of legal protections. Such provisions are generally void and unenforceable.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B's monthly salary shall be RMB 8,000 (pre-tax), paid to Party B's designated bank account on the 10th of each month.",
+    "correct_answer": "safe",
+    "explanation": "The salary amount, payment date, and payment method are all clearly specified, fully complying with the requirements of the Labour Contract Law.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B's remuneration shall be determined by the company based on its business conditions, and Party B raises no objection.",
+    "correct_answer": "risk",
+    "explanation": "A completely undefined salary allows the employer to reduce pay at will. This creates a very high risk of non-payment or underpayment - always insist on a fixed amount.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "The probation period is 3 months. Probation salary shall be 80% of the confirmed salary and no less than the minimum wage for the same position at the employer.",
+    "correct_answer": "safe",
+    "explanation": "Both the probation duration and salary ratio are clearly stated with a minimum guarantee, satisfying the requirements of Article 20 of the Labour Contract Law.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B must give 90 days' notice before resignation; failure to do so requires payment of a penalty equal to 60% of Party B's annual salary.",
+    "correct_answer": "risk",
+    "explanation": "The penalty far exceeds the legally permitted scope (liquidated damages are only allowed for specialised training and non-compete situations), and the notice period is excessively long. This clause may be void.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Any dispute arising from this contract shall first be resolved through friendly negotiation; if negotiation fails, either party may submit the dispute to the Labour Dispute Arbitration Commission for arbitration.",
+    "correct_answer": "safe",
+    "explanation": "A clear dispute resolution pathway - negotiation first, then arbitration - is properly set out, ensuring both parties have a legal avenue to protect their rights.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B's working hours shall be subject to company arrangements; the specific duration will be notified by the company as required by business needs, and Party B may not refuse.",
+    "correct_answer": "risk",
+    "explanation": "Completely undefined working hours can lead to unlimited, uncompensated overtime, in direct violation of the mandatory working-hour provisions of the Labour Law.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "The contract term is 2 years, from 1 July 2024 to 30 June 2026. Upon expiry, both parties may negotiate a renewal.",
+    "correct_answer": "safe",
+    "explanation": "Clear start and end dates, combined with a mutual renewal negotiation mechanism, provide reasonable certainty for both parties.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "All risks and losses arising from work shall be borne solely by Party B. Party A assumes no joint liability whatsoever.",
+    "correct_answer": "risk",
+    "explanation": "Transferring all occupational risks to the employee is a classic unfair clause. Employers are legally responsible for workplace safety, and such provisions are unenforceable.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B's work location is [specified office address]. Short-term business travel required by operational needs must be negotiated in advance and confirmed in writing.",
+    "correct_answer": "safe",
+    "explanation": "A specific work location is stated, and any change requires prior negotiation and written confirmation - protecting the employee's reasonable expectation of a stable workplace.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "By signing this contract, Party B is deemed to have agreed that the company has the right to adjust Party B's position and salary under any circumstances, and Party B may not object.",
+    "correct_answer": "risk",
+    "explanation": "Granting the employer unrestricted power to reassign roles and cut pay severely undermines the employee's rights. Courts typically decline to enforce such clauses.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Party A shall contribute to Party B's pension, medical, unemployment, work-injury, and maternity insurance, as well as the housing provident fund, in accordance with national regulations.",
+    "correct_answer": "safe",
+    "explanation": "Explicitly committing to statutory social insurance and housing fund contributions reflects the employee's legal entitlements and is properly worded.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B agrees to waive all rights to overtime compensation and acknowledges that all overtime is voluntary and unpaid.",
+    "correct_answer": "risk",
+    "explanation": "Employees cannot waive statutory overtime pay. Under Article 44 of the Labour Law, employers must compensate overtime at 150%-300% of normal wages. This clause is void.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B shall be entitled to 15 days of paid annual leave per year, accrued in accordance with the Regulation on Paid Annual Leave for Employees.",
+    "correct_answer": "safe",
+    "explanation": "The annual leave entitlement is clearly stated and references the applicable regulation, providing a transparent and lawful leave arrangement.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party A reserves the right to withhold Party B's final month salary and any unpaid bonuses indefinitely upon Party B's resignation, regardless of reason.",
+    "correct_answer": "risk",
+    "explanation": "Indefinitely withholding earned wages and bonuses after resignation violates labour law. Employers must settle wages within the statutory period after employment ends.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B shall not engage in any business that competes with Party A for a period of 2 years after leaving, and Party A shall pay monthly non-compete compensation equal to 30% of Party B's average monthly salary during the restriction period.",
+    "correct_answer": "safe",
+    "explanation": "The non-compete clause has a reasonable duration (within 2 years), and compensation is explicitly provided, meeting the legal requirements of Article 23-24 of the Labour Contract Law.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "After leaving the company, Party B shall not work for any competing company for 5 years. No compensation will be provided during this period.",
+    "correct_answer": "risk",
+    "explanation": "A 5-year non-compete exceeds the legal maximum of 2 years, and the absence of compensation makes the clause unenforceable. Both issues make this a high-risk provision.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Party A has provided Party B with specialised technical training costing RMB 50,000. If Party B resigns within 3 years, Party B shall repay the training costs on a pro-rata basis according to the remaining service period.",
+    "correct_answer": "safe",
+    "explanation": "Liquidated damages for employer-funded specialised training are expressly permitted under Article 22 of the Labour Contract Law, and pro-rata repayment is a reasonable, commonly accepted arrangement.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Party B must pay a training bond of RMB 200,000 if Party B leaves within 5 years, regardless of the actual training cost incurred by Party A.",
+    "correct_answer": "risk",
+    "explanation": "The penalty amount exceeds the actual training costs, which violates the Labour Contract Law. Liquidated damages for training must not exceed the actual expenses apportioned over the remaining period.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "All inventions, designs, and intellectual property created by Party B during the term of this contract and related to Party A's business shall belong to Party A. Party B shall receive a separate invention reward as stipulated by company policy.",
+    "correct_answer": "safe",
+    "explanation": "Assigning work-related IP to the employer is standard and lawful, and the mention of a reward complies with the Patent Law's requirement for reasonable inventor remuneration.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "All inventions, creative works, or ideas conceived by Party B, whether during working hours or during personal time, and whether or not related to Party A's business, shall be the sole property of Party A.",
+    "correct_answer": "risk",
+    "explanation": "Claiming ownership of IP created outside work hours and unrelated to the employer's business goes beyond what the law permits and is likely unenforceable.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Party B shall keep confidential all trade secrets and proprietary information of Party A during and after employment. The confidentiality obligation shall survive termination of the contract.",
+    "correct_answer": "safe",
+    "explanation": "A post-employment confidentiality obligation for trade secrets is standard and does not require separate compensation (unlike non-compete clauses). This is a lawful and common provision.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "If Party B becomes pregnant during the contract term, the contract shall automatically terminate and Party A shall bear no further obligations.",
+    "correct_answer": "risk",
+    "explanation": "Terminating employment due to pregnancy is strictly prohibited under Article 42 of the Labour Contract Law. Such a clause is void and constitutes gender discrimination.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party B is entitled to maternity leave of 98 days in accordance with the Special Rules on the Labour Protection of Female Employees, with salary paid as normal during the leave period.",
+    "correct_answer": "safe",
+    "explanation": "The clause correctly reflects the statutory maternity leave entitlement and guarantees salary continuation, fully complying with applicable regulations.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party A may collect, store, and use Party B's personal biometric data (fingerprints, facial recognition) for any company purpose without Party B's further consent.",
+    "correct_answer": "risk",
+    "explanation": "Under the Personal Information Protection Law, biometric data is classified as sensitive personal information requiring separate, explicit consent for each specific purpose. Blanket consent clauses are non-compliant.",
+    "difficulty": "hard"
+  },
+  {
+    "clause_text": "Party A shall adopt the standard working-hour system: 8 hours per day, 40 hours per week, with at least one rest day per week.",
+    "correct_answer": "safe",
+    "explanation": "This directly mirrors the statutory standard working-hour system under Article 36 of the Labour Law, providing clear and lawful working-time arrangements.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "In the event of a work-related injury, Party B agrees that compensation shall be limited to a maximum of RMB 10,000, regardless of the severity of the injury.",
+    "correct_answer": "risk",
+    "explanation": "Capping work-injury compensation below statutory standards is illegal. Work-injury benefits are determined by law and cannot be contractually limited by the employer.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Party A shall provide Party B with safe working conditions compliant with national occupational health and safety standards, and shall conduct regular safety training.",
+    "correct_answer": "safe",
+    "explanation": "A commitment to workplace safety standards and training fulfils the employer's statutory duty of care under the Work Safety Law and the Law on Prevention and Control of Occupational Diseases.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party A may transfer Party B to any subsidiary, affiliated company, or third party at any time without Party B's consent, and the terms of this contract shall continue to apply.",
+    "correct_answer": "risk",
+    "explanation": "Changing the employing entity requires the employee's consent. Unilateral transfer to another company effectively constitutes termination and re-employment, which cannot be imposed without agreement.",
+    "difficulty": "hard"
+  },
+  {
+    "clause_text": "If Party A terminates this contract in violation of the law, Party A shall pay Party B compensation at twice the statutory severance rate.",
+    "correct_answer": "safe",
+    "explanation": "This accurately reflects Article 87 of the Labour Contract Law, which requires double severance for unlawful termination — a proper protection for the employee.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Neither party shall be liable for failure to perform obligations under this contract if such failure is caused by force majeure events including but not limited to natural disasters, wars, or government orders.",
+    "correct_answer": "safe",
+    "explanation": "A standard force majeure clause with reasonable examples is a common and lawful provision that protects both parties from liability for unforeseeable and unavoidable events.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Party B agrees that any labour dispute shall be submitted exclusively to a court designated by Party A, and Party B waives the right to apply for labour arbitration.",
+    "correct_answer": "risk",
+    "explanation": "Labour arbitration is a mandatory pre-litigation procedure under the Labour Dispute Mediation and Arbitration Law. Employees cannot waive this right, and employers cannot bypass it through contract terms.",
+    "difficulty": "hard"
+  },
+  {
+    "clause_text": "Party B agrees to pay Party A a deposit of RMB 5,000 as a guarantee for faithful performance of this contract. The deposit shall be refunded upon proper completion of the contract term.",
+    "correct_answer": "risk",
+    "explanation": "Article 9 of the Labour Contract Law expressly prohibits employers from collecting deposits or financial guarantees from employees. This clause is void regardless of the refund promise.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "Party B's performance shall be assessed quarterly using KPIs agreed upon in writing by both parties. Assessment results may serve as a reference for salary adjustment upon mutual negotiation.",
+    "correct_answer": "safe",
+    "explanation": "A transparent, mutually agreed performance assessment mechanism with negotiated salary adjustments is fair and represents good employment practice.",
+    "difficulty": "medium"
+  },
+  {
+    "clause_text": "If Party B fails to meet performance targets set solely by Party A, Party A may immediately terminate this contract without severance pay.",
+    "correct_answer": "risk",
+    "explanation": "Unilaterally set targets combined with termination without severance violate the Labour Contract Law. Even for incompetence, the employer must offer training or reassignment before termination, and severance is still owed.",
+    "difficulty": "hard"
+  },
+  {
+    "clause_text": "This contract may be amended only by written agreement signed by both parties. Any oral modification shall have no legal effect.",
+    "correct_answer": "safe",
+    "explanation": "Requiring written mutual consent for contract amendments is a standard protective clause that prevents unilateral changes and ensures legal certainty for both parties.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party A reserves the right to interpret the terms of this contract. In the event of any dispute regarding the meaning of a clause, Party A's interpretation shall be final and binding.",
+    "correct_answer": "risk",
+    "explanation": "Granting one party sole interpretive authority over contract terms is fundamentally unfair. Under Chinese contract law, ambiguous terms should be interpreted against the drafter and in favour of the employee.",
+    "difficulty": "hard"
+  },
+  {
+    "clause_text": "Party B shall hand over all work, return company property, and complete the offboarding process within 7 working days of the termination date. Party A shall issue a certificate of termination on the same day.",
+    "correct_answer": "safe",
+    "explanation": "A clear offboarding process with the employer's obligation to issue a termination certificate complies with Article 50 of the Labour Contract Law.",
+    "difficulty": "easy"
+  },
+  {
+    "clause_text": "Party A may reduce Party B's salary by up to 50% as a disciplinary measure for any violation of company rules, to be determined at Party A's sole discretion.",
+    "correct_answer": "risk",
+    "explanation": "Using arbitrary salary deduction as a punitive measure is unlawful. Employers may not unilaterally cut wages as punishment, and disciplinary rules must be reasonable, publicised, and democratically adopted.",
+    "difficulty": "hard"
+  }
+]
