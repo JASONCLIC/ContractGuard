@@ -7,6 +7,26 @@ ContractGuard is a full-stack contract analysis application with:
 - a Flask backend (`backend/`)
 - a React + Vite frontend (`frontend/`)
 
+## Website screenshots
+
+Screenshots from the original project demonstration recordings.
+
+### Homepage
+
+![ContractGuard homepage with contract analysis and clause library entry points](docs/screenshots/dashboard.png)
+
+### Contract risk analysis
+
+![Analysis results showing risk levels, clause explanations and the original contract text](docs/screenshots/risk-analysis.png)
+
+### Clause template library
+
+![Clause template library with categories, sample wording and drafting guidance](docs/screenshots/clause-library.png)
+
+### Risk clause quiz
+
+![Interactive quiz for identifying risky contract clauses](docs/screenshots/risk-quiz.png)
+
 ## Prerequisites
 
 - Python 3.9+
